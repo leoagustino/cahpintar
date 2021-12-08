@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">cahPintar</string>
+    <string name="title_activity_sign_up">signUp</string>
 </resources>
