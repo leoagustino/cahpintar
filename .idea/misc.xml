@@ -3,8 +3,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/layout/activity_forget_password.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_forget_password2.xml" value="0.296195652173913" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.296195652173913" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1693840579710145" />
+        <entry key="app/src/main/res/layout/activity_menu_membaca.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_menu_menghitung.xml" value="0.2427536231884058" />
+        <entry key="app/src/main/res/layout/activity_pengenalan_angka.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_pengenalan_angka2.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_pengenalan_huruf.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_register.xml" value="0.15450861195542046" />
+        <entry key="app/src/main/res/layout/activity_soal_berbicara.xml" value="0.21180555555555555" />
+        <entry key="app/src/main/res/layout/activity_soal_berbicara12.xml" value="0.3271428571428571" />
+        <entry key="app/src/main/res/layout/activity_soal_membaca12.xml" value="0.21180555555555555" />
+        <entry key="app/src/main/res/layout/activity_soal_menulis.xml" value="0.33" />
       </map>
     </option>
   </component>

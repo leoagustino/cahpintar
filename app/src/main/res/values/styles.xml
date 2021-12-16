@@ -10,8 +10,14 @@
         <item name="android:letterSpacing">-0.05</item>
         <item name="android:textColor">#E64F3C</item>
     </style>
+
     <style name="fomInputBox" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
         <item name="boxStrokeColor">#F98E00</item>
+        <item name="boxStrokeWidth">2dp</item>
+    </style>
+
+    <style name="fomInputBox2" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">#FFFFFF</item>
         <item name="boxStrokeWidth">2dp</item>
     </style>
 
@@ -27,4 +33,39 @@
         <item name="android:textColor">#000000</item>
     </style>
 
+    <style name="forget_pass2">
+        <item name="android:textSize">24sp</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="judul_menu">
+        <item name="android:textSize">24sp</item>
+        <item name="android:letterSpacing">0.01</item>
+        <item name="android:textColor">#323232</item>
+    </style>
+
+    <style name="menu_font">
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0.03</item>
+        <item name="android:textColor">#812D5B</item>
+    </style>
+    <style name="teks_soal">
+        <item name="android:textSize">16sp</item>
+        <item name="android:letterSpacing">-0.02</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="font_soalbaca">
+        <item name="android:textSize">24sp</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="font_voice">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#E65002</item>
+    </style>
 </resources>

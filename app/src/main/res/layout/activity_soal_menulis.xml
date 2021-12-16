@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SoalMenulis">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_width="400dp"
+        android:layout_height="310dp"
+        android:layout_marginTop="16dp"
+        app:cardBackgroundColor="@color/cardcolor1"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btnback3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                app:srcCompat="@drawable/ic_arrow" />
+
+            <TextView
+                android:id="@+id/jMenulis1"
+                android:layout_width="wrap_content"
+                android:layout_height="42dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:gravity="center_horizontal|top"
+                android:text="Menulis"
+                android:textAppearance="@style/judul_menu" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="3dp"
+            app:srcCompat="@drawable/backgroundsoal" />
+
+        <ImageView
+            android:id="@+id/imageAyah1"
+            android:layout_width="190dp"
+            android:layout_height="210dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/imageayah" />
+        <TextView
+            android:id="@+id/ayah"
+            android:layout_width="61dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center"
+            android:text="Ayah"
+            android:layout_marginTop="130dp"
+            android:textAppearance="@style/font_soalbaca"
+            />
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            app:srcCompat="@drawable/list_alt"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="right"/>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView3"
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="24dp"
+        app:cardCornerRadius="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView2">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            app:cardBackgroundColor="#41C2F4"
+            app:cardCornerRadius="15dp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="342dp">
+
+            <TextView
+                android:id="@+id/judulsoal1"
+                android:layout_width="171dp"
+                android:layout_height="24dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="8dp"
+                android:text="Bacalah Kata berikut !"
+                android:textAppearance="@style/teks_soal" />
+
+
+            <LinearLayout
+                android:id="@+id/linJawab1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    app:cardCornerRadius="20dp">
+
+                    <ImageButton
+                        android:id="@+id/btnSuara"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@null"
+                        app:srcCompat="@drawable/ic_volume" />
+                </androidx.cardview.widget.CardView>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/fomInputBox2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/form_menulis"
+                        android:layout_width="230dp"
+                        android:layout_height="50dp"
+                        android:ems="15"
+                        android:hint="Jawab....."
+                        android:inputType="textEmailAddress"
+                        android:paddingLeft="10dp" />
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="90dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btna1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:background="@null"
+                app:srcCompat="@drawable/s_imagea1" />
+
+            <ImageButton
+                android:id="@+id/btny"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:background="@null"
+                app:srcCompat="@drawable/s_imagey" />
+
+            <ImageButton
+                android:id="@+id/btna"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:background="@null"
+                app:srcCompat="@drawable/s_imagea" />
+
+            <ImageButton
+                android:id="@+id/btnh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                app:srcCompat="@drawable/s_imageh" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btnLanjut01"
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/btnwarna"
+        android:text="Selanjutnya"
+        android:textColor="@color/btntxtwarna"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView3"></Button>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

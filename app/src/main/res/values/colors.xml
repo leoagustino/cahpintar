@@ -9,4 +9,6 @@
     <color name="white">#FFFFFFFF</color>
     <color name="btnwarna">#FFD984</color>
     <color name="btntxtwarna">#434343</color>
+    <color name="cardcolor1">#FFD984</color>
+    <color name="btntxtwarna2">#E65002</color>
 </resources>

@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PengenalanHuruf">
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.142"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/btnback2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            app:srcCompat="@drawable/ic_backarrow" />
+
+        <TextView
+            android:id="@+id/judulhitung"
+            android:layout_width="wrap_content"
+            android:layout_height="42dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_horizontal|top"
+            android:text="Pengenalan Huruf"
+            android:textAppearance="@style/judul_menu"
+            android:textColor="#E65002" />
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="375dp"
+        android:layout_height="631dp"
+        android:layout_marginTop="56dp"
+        app:cardBackgroundColor="@color/cardcolor1"
+        app:cardCornerRadius="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <androidx.gridlayout.widget.GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginRight="20dp"
+                app:cardCornerRadius="10dp"
+                app:layout_column="0"
+                app:layout_row="0">
+
+                <ImageView
+                    android:id="@+id/hurufa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/hurufa" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginRight="20dp"
+                app:cardCornerRadius="10dp"
+                app:layout_column="1"
+                app:layout_row="0">
+
+                <ImageView
+                    android:id="@+id/hurufb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/hurufb" />
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginRight="20dp"
+                app:cardCornerRadius="10dp"
+                app:layout_column="2"
+                app:layout_row="0">
+
+                <ImageView
+                    android:id="@+id/hurufc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/hurufc" />
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginRight="20dp"
+                app:cardCornerRadius="10dp"
+                app:layout_column="3"
+                app:layout_row="0">
+
+                <ImageView
+                    android:id="@+id/hurufd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/hurufd" />
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                app:cardCornerRadius="10dp"
+                app:layout_column="0"
+                app:layout_row="1">
+
+                <ImageView
+                    android:id="@+id/hurufe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/hurufe" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                app:cardCornerRadius="10dp"
+                app:layout_column="1"
+                app:layout_row="1">
+
+                <ImageView
+                    android:id="@+id/huruff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/huruff" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                app:cardCornerRadius="10dp"
+                app:layout_column="2"
+                app:layout_row="1">
+
+                <ImageView
+                    android:id="@+id/hurufg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/hurufg" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                app:cardCornerRadius="10dp"
+                app:layout_column="3"
+                app:layout_row="1">
+
+                <ImageView
+                    android:id="@+id/hurufh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/hurufh" />
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                app:cardCornerRadius="10dp"
+                app:layout_column="0"
+                app:layout_row="2">
+
+                <ImageView
+                    android:id="@+id/hurufi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/hurufi" />
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                app:cardCornerRadius="10dp"
+                app:layout_column="1"
+                app:layout_row="2">
+
+                <ImageView
+                    android:id="@+id/hurufj"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/hurufj" />
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                app:cardCornerRadius="10dp"
+                app:layout_column="2"
+                app:layout_row="2">
+
+                <ImageView
+                    android:id="@+id/hurufk"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/hurufk" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                app:cardCornerRadius="10dp"
+                app:layout_column="3"
+                app:layout_row="2">
+
+                <ImageView
+                    android:id="@+id/hurufl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/hurufl" />
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                app:cardCornerRadius="10dp"
+                app:layout_column="0"
+                app:layout_row="3">
+
+                <ImageView
+                    android:id="@+id/hurufm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/hurufm" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                app:cardCornerRadius="10dp"
+                app:layout_column="1"
+                app:layout_row="3">
+
+                <ImageView
+                    android:id="@+id/hurufn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/hurufn" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                app:cardCornerRadius="10dp"
+                app:layout_column="2"
+                app:layout_row="3">
+
+                <ImageView
+                    android:id="@+id/hurufo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/hurufo" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                app:cardCornerRadius="10dp"
+                app:layout_column="3"
+                app:layout_row="3">
+
+                <ImageView
+                    android:id="@+id/hurufp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/hurufp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                app:cardCornerRadius="10dp"
+                app:layout_column="0"
+                app:layout_row="4">
+
+                <ImageView
+                    android:id="@+id/hurufq"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/hurufq" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                app:cardCornerRadius="10dp"
+                app:layout_column="1"
+                app:layout_row="4">
+
+                <ImageView
+                    android:id="@+id/hurufr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/hurufr" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                app:cardCornerRadius="10dp"
+                app:layout_column="2"
+                app:layout_row="4">
+
+                <ImageView
+                    android:id="@+id/hurufs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/hurufs" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                app:cardCornerRadius="10dp"
+                app:layout_column="3"
+                app:layout_row="4">
+
+                <ImageView
+                    android:id="@+id/huruft"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/huruft" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                app:cardCornerRadius="10dp"
+                app:layout_column="0"
+                app:layout_row="5">
+
+                <ImageView
+                    android:id="@+id/hurufu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/hurufu" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                app:cardCornerRadius="10dp"
+                app:layout_column="1"
+                app:layout_row="5">
+
+                <ImageView
+                    android:id="@+id/hurufv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/hurufv" />
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                app:cardCornerRadius="10dp"
+                app:layout_column="2"
+                app:layout_row="5">
+
+                <ImageView
+                    android:id="@+id/hurufw"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/hurufw" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                app:cardCornerRadius="10dp"
+                app:layout_column="3"
+                app:layout_row="5">
+
+                <ImageView
+                    android:id="@+id/hurufx"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/hurufx" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                app:cardCornerRadius="10dp"
+                app:layout_column="0"
+                app:layout_row="6">
+
+                <ImageView
+                    android:id="@+id/hurufy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/hurufy" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                app:cardCornerRadius="10dp"
+                app:layout_column="1"
+                app:layout_row="6">
+
+                <ImageView
+                    android:id="@+id/hurufz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/hurufz" />
+
+            </androidx.cardview.widget.CardView>
+
+
+        </androidx.gridlayout.widget.GridLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

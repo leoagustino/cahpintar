@@ -10,6 +10,42 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CahPintar">
         <activity
+            android:name=".SoalBerbicara12"
+            android:exported="true" />
+        <activity
+            android:name=".SoalMembaca12"
+            android:exported="true" />
+        <activity
+            android:name=".SoalBerbicara"
+            android:exported="true" />
+        <activity
+            android:name=".SoalMenulis"
+            android:exported="true" />
+        <activity
+            android:name=".PengenalanHuruf"
+            android:exported="true" />
+        <activity
+            android:name=".PengenalanAngka2"
+            android:exported="true" />
+        <activity
+            android:name=".PengenalanAngka"
+            android:exported="true" />
+        <activity
+            android:name=".MenuMenghitung"
+            android:exported="true" />
+        <activity
+            android:name=".MenuMembaca"
+            android:exported="true" />
+        <activity
+            android:name=".forgetPassword2"
+            android:exported="true" />
+        <activity
+            android:name=".forgetPassword"
+            android:exported="true" />
+        <activity
+            android:name=".register"
+            android:exported="true" />
+        <activity
             android:name=".login"
             android:exported="true" />
         <activity

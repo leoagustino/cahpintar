@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PengenalanAngka2">
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.142"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/btnback4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            app:srcCompat="@drawable/ic_backarrow" />
+
+        <TextView
+            android:id="@+id/pengenalanAngka2"
+            android:layout_width="wrap_content"
+            android:layout_height="42dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_horizontal|top"
+            android:text="Pengenalan Angka"
+            android:textAppearance="@style/judul_menu"
+            android:textColor="#E65002" />
+    </LinearLayout>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="380dp"
+        android:layout_height="610dp"
+        app:cardBackgroundColor="@color/cardcolor1"
+        app:cardCornerRadius="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4"
+        app:layout_constraintVertical_bias="0.0">
+
+        <androidx.gridlayout.widget.GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="70dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="160dp"
+                android:layout_height="100dp"
+                android:layout_marginRight="20dp"
+                app:cardCornerRadius="10dp"
+                app:layout_column="0"
+                app:layout_row="0">
+
+                <ImageView
+                    android:id="@+id/angka10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/angka10" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="160dp"
+                android:layout_height="100dp"
+                android:layout_marginRight="20dp"
+                app:cardCornerRadius="10dp"
+                app:layout_column="1"
+                app:layout_row="0">
+
+                <ImageView
+                    android:id="@+id/angka20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/angka20" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="160dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                app:cardCornerRadius="10dp"
+                app:layout_column="0"
+                app:layout_row="1">
+
+                <ImageView
+                    android:id="@+id/angka30"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/angka30" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="160dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                app:cardCornerRadius="10dp"
+                app:layout_column="1"
+                app:layout_row="1">
+
+                <ImageView
+                    android:id="@+id/angka40"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/angka40" />
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="160dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                app:cardCornerRadius="10dp"
+                app:layout_column="0"
+                app:layout_row="3">
+
+                <ImageView
+                    android:id="@+id/angka50"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/angka50" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="160dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                app:cardCornerRadius="10dp"
+                app:layout_column="1"
+                app:layout_row="3">
+
+                <ImageView
+                    android:id="@+id/angka60"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/angka60" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="160dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                app:cardCornerRadius="10dp"
+                app:layout_column="0"
+                app:layout_row="4">
+
+                <ImageView
+                    android:id="@+id/angka7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/angka70" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="160dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                app:cardCornerRadius="10dp"
+                app:layout_column="1"
+                app:layout_row="4">
+
+                <ImageView
+                    android:id="@+id/angka80"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/angka80" />
+
+            </androidx.cardview.widget.CardView>
+
+
+        </androidx.gridlayout.widget.GridLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="160dp"
+            android:layout_height="100dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="110dp"
+            android:layout_marginBottom="10dp"
+            app:cardCornerRadius="10dp">
+
+            <ImageView
+                android:id="@+id/angka90"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/angka90" />
+        </androidx.cardview.widget.CardView>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
