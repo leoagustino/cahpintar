@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "793672421266",
+    "project_id": "authentication-c6de6",
+    "storage_bucket": "authentication-c6de6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:793672421266:android:e1b1a2fe4a437b80f53b4b",
+        "android_client_info": {
+          "package_name": "com.example.cahpintar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "793672421266-p2hvrdrroumv46gdsd38gj11uiegcgkv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_yO67fHM7RD0rhE9AZvdeFqHnS--bsIU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "793672421266-p2hvrdrroumv46gdsd38gj11uiegcgkv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

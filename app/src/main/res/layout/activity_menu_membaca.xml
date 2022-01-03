@@ -8,29 +8,32 @@
 
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/cardView"
-        android:layout_width="379dp"
-        android:layout_height="185dp"
-        android:layout_marginTop="24dp"
+        android:id="@+id/cardViewz"
+        android:layout_width="370dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="4dp"
         app:cardCornerRadius="20dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
             android:id="@+id/imageView4"
-            android:layout_width="342dp"
-            android:layout_height="200dp"
+            android:layout_width="370dp"
+            android:layout_height="160dp"
             android:layout_gravity="center"
             app:srcCompat="@drawable/gbrbaca" />
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
             android:orientation="horizontal">
 
             <ImageButton
-                android:id="@+id/imageButton"
+                android:id="@+id/btnTesLogOut"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@null"
@@ -49,18 +52,27 @@
                 android:textAppearance="@style/judul_menu" />
         </LinearLayout>
 
-    </androidx.cardview.widget.CardView>
+        <TextView
+            android:id="@+id/txtPengenalanHuruf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="210dp"
+            android:text="Pengenalan Huruf"
+            android:textAlignment="center"
+            android:textAppearance="@style/menu_font"
+            android:textSize="20dp" />
 
+    </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
         android:layout_width="357dp"
-        android:layout_height="470dp"
-        android:layout_marginTop="220dp"
-        app:cardCornerRadius="40dp"
+        android:layout_height="420dp"
+        android:layout_marginTop="8dp"
         app:cardBackgroundColor="@color/cardcolor1"
+        app:cardCornerRadius="40dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toBottomOf="@+id/cardViewz">
 
         <androidx.gridlayout.widget.GridLayout
             android:layout_width="wrap_content"
@@ -70,54 +82,14 @@
             tools:layout_editor_absoluteX="48dp"
             tools:layout_editor_absoluteY="243dp">
 
-            <androidx.cardview.widget.CardView
-                android:layout_width="140dp"
-                android:layout_height="100dp"
-                app:cardCornerRadius="10dp"
-                app:layout_column="0"
-                app:layout_row="0">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    tools:layout_editor_absoluteX="90dp"
-                    tools:layout_editor_absoluteY="231dp">
-
-
-                    <ImageView
-                        android:id="@+id/gambarhuruf"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        app:layout_column="0"
-                        app:layout_row="0"
-                        app:srcCompat="@drawable/gbrabc"
-                        tools:layout_editor_absoluteX="271dp"
-                        tools:layout_editor_absoluteY="653dp" />
-
-                    <TextView
-                        android:id="@+id/menu1"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_alignParentLeft="true"
-                        android:layout_alignParentTop="true"
-                        android:text="Pengenalan Huruf"
-                        android:textAlignment="center"
-                        android:textAppearance="@style/menu_font"></TextView>
-
-                </LinearLayout>
-
-
-            </androidx.cardview.widget.CardView>
-
 
             <androidx.cardview.widget.CardView
                 android:layout_width="140dp"
                 android:layout_height="100dp"
                 android:layout_marginTop="20dp"
                 app:cardCornerRadius="10dp"
-                app:layout_column="0"
-                app:layout_row="1">
+                app:layout_column="1"
+                app:layout_row="0">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -131,14 +103,14 @@
                         android:id="@+id/gbr2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        app:layout_column="0"
+                        app:layout_column="1"
                         app:layout_row="0"
                         app:srcCompat="@drawable/gbr2"
                         tools:layout_editor_absoluteX="271dp"
                         tools:layout_editor_absoluteY="653dp" />
 
                     <TextView
-                        android:id="@+id/menu2"
+                        android:id="@+id/menuBaca2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_alignParentLeft="true"
@@ -155,9 +127,9 @@
                 android:layout_width="140dp"
                 android:layout_height="100dp"
                 android:layout_marginTop="20dp"
-                app:layout_column="0"
                 app:cardCornerRadius="10dp"
-                app:layout_row="2">
+                app:layout_column="1"
+                app:layout_row="1">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -179,7 +151,7 @@
                         tools:layout_editor_absoluteY="653dp" />
 
                     <TextView
-                        android:id="@+id/menu4"
+                        android:id="@+id/menuBaca4"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_alignParentLeft="true"
@@ -195,8 +167,10 @@
                 android:layout_width="140dp"
                 android:layout_height="100dp"
                 android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
                 app:cardCornerRadius="10dp"
-                app:layout_column="1"
+                app:layout_column="0"
                 app:layout_row="0">
 
                 <LinearLayout
@@ -218,7 +192,7 @@
                         tools:layout_editor_absoluteY="653dp" />
 
                     <TextView
-                        android:id="@+id/baca1"
+                        android:id="@+id/menuBaca1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_alignParentLeft="true"
@@ -237,7 +211,7 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="20dp"
                 app:cardCornerRadius="10dp"
-                app:layout_column="1"
+                app:layout_column="0"
                 app:layout_row="1">
 
                 <LinearLayout
@@ -253,13 +227,13 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         app:layout_column="0"
-                        app:layout_row="0"
+                        app:layout_row="1"
                         app:srcCompat="@drawable/gbr3"
                         tools:layout_editor_absoluteX="271dp"
                         tools:layout_editor_absoluteY="653dp" />
 
                     <TextView
-                        android:id="@+id/menu3"
+                        android:id="@+id/menuBaca3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_alignParentLeft="true"
@@ -277,7 +251,7 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="20dp"
                 app:cardCornerRadius="10dp"
-                app:layout_column="1"
+                app:layout_column="0"
                 app:layout_row="2">
 
                 <LinearLayout
@@ -299,7 +273,7 @@
                         tools:layout_editor_absoluteY="653dp" />
 
                     <TextView
-                        android:id="@+id/menu5"
+                        android:id="@+id/menuBaca5"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_alignParentLeft="true"
@@ -314,14 +288,5 @@
 
         </androidx.gridlayout.widget.GridLayout>
 
-        <Button
-            android:id="@+id/button2"
-            android:layout_width="313dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="208dp"
-            android:backgroundTint="@color/white"
-            android:text="Play Now"
-            android:textColor="@color/btntxtwarna2" />
     </androidx.cardview.widget.CardView>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -12,7 +12,7 @@
         android:layout_height="21dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
         android:gravity="top"
         android:text="Email"
         android:textAppearance="@style/formstyle"
@@ -27,7 +27,7 @@
         android:layout_height="21dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="144dp"
         android:gravity="top"
         android:text="User Name"
         android:textAppearance="@style/formstyle"
@@ -42,7 +42,7 @@
         android:layout_height="21dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
         android:gravity="top"
         android:text="Password"
         android:textAppearance="@style/formstyle"
@@ -57,7 +57,7 @@
         android:layout_height="21dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
         android:gravity="top"
         android:text="Retype Password"
         android:textAppearance="@style/formstyle"
@@ -66,27 +66,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linear2" />
 
-    <TextView
-        android:id="@+id/cahpintar"
-        android:layout_width="81dp"
-        android:layout_height="24dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:gravity="center_horizontal|top"
-        android:text="CahPintar"
-        android:textAppearance="@style/judul"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
-
     <LinearLayout
         android:id="@+id/linear1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
         android:gravity="center"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tittlemail1">
 
@@ -97,7 +85,7 @@
             android:layout_marginLeft="10dp">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/email_edit_text"
+                android:id="@+id/registerEmail"
                 android:layout_width="310dp"
                 android:layout_height="50dp"
                 android:ems="15"
@@ -113,9 +101,11 @@
         android:id="@+id/linear2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
         android:gravity="center"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tittlepassword1">
 
@@ -127,7 +117,7 @@
             app:passwordToggleEnabled="true">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/password_edit_text"
+                android:id="@+id/registerPassword"
                 android:layout_width="310dp"
                 android:layout_height="50dp"
                 android:ems="15"
@@ -143,9 +133,11 @@
         android:id="@+id/linear3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
         android:gravity="center"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tittlepassword2">
 
@@ -157,7 +149,7 @@
             app:passwordToggleEnabled="true">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/password_edit_text4"
+                android:id="@+id/registerConPass"
                 android:layout_width="310dp"
                 android:layout_height="50dp"
                 android:ems="15"
@@ -173,9 +165,11 @@
         android:id="@+id/linear4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
         android:gravity="center"
         android:orientation="horizontal"
-        app:layout_constraintTop_toBottomOf="@+id/username">
+        app:layout_constraintTop_toBottomOf="@+id/username"
+        tools:layout_editor_absoluteX="0dp">
 
         <com.google.android.material.textfield.TextInputLayout
             style="@style/fomInputBox"
@@ -184,7 +178,7 @@
             android:layout_marginLeft="10dp">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/username_edit_text"
+                android:id="@+id/registerUserName"
                 android:layout_width="310dp"
                 android:layout_height="50dp"
                 android:ems="15"
@@ -200,7 +194,7 @@
         android:id="@+id/btnRegister"
         android:layout_width="306dp"
         android:layout_height="54dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
         android:backgroundTint="@color/btnwarna"
         android:text="Register"
         android:textColor="@color/btntxtwarna"
@@ -214,14 +208,15 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
         android:gravity="center"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnRegister">
 
         <TextView
-            android:id="@+id/have1"
             android:layout_width="129dp"
             android:layout_height="22dp"
             android:layout_alignParentLeft="true"
@@ -233,13 +228,13 @@
             tools:layout_editor_absoluteY="550dp" />
 
         <TextView
-            android:id="@+id/register"
+            android:id="@+id/pageLogin"
             android:layout_width="48dp"
             android:layout_height="22dp"
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             android:gravity="top"
-            android:text="Register"
+            android:text="Login"
             android:textAppearance="@style/formstyle2"
             tools:layout_editor_absoluteX="259dp"
             tools:layout_editor_absoluteY="550dp" />
@@ -247,8 +242,8 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="30dp"
-        android:layout_height="59dp"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"

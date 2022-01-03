@@ -33,7 +33,7 @@
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
             android:gravity="center_horizontal|top"
-            android:text="Pengenalan Angka"
+            android:text="Pengenalan Jarimatika"
             android:textAppearance="@style/judul_menu"
             android:textColor="#E65002" />
     </LinearLayout>
@@ -43,7 +43,7 @@
         android:layout_width="380dp"
         android:layout_height="610dp"
         app:cardBackgroundColor="@color/cardcolor1"
-        app:cardCornerRadius="40dp"
+        app:cardCornerRadius="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.483"
@@ -68,11 +68,11 @@
                 app:layout_row="0">
 
                 <ImageView
-                    android:id="@+id/angka1"
+                    android:id="@+id/jariAngka1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    app:srcCompat="@drawable/angka1" />
+                    app:srcCompat="@drawable/jariangka1" />
 
             </androidx.cardview.widget.CardView>
 
@@ -85,11 +85,11 @@
                 app:layout_row="0">
 
                 <ImageView
-                    android:id="@+id/angka2"
+                    android:id="@+id/jariAngka2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    app:srcCompat="@drawable/angka2" />
+                    app:srcCompat="@drawable/jariangka2" />
 
             </androidx.cardview.widget.CardView>
 
@@ -103,11 +103,11 @@
                 app:layout_row="1">
 
                 <ImageView
-                    android:id="@+id/angka3"
+                    android:id="@+id/jariAngka3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    app:srcCompat="@drawable/angka3" />
+                    app:srcCompat="@drawable/jariangka3" />
 
             </androidx.cardview.widget.CardView>
 
@@ -121,11 +121,11 @@
                 app:layout_row="1">
 
                 <ImageView
-                    android:id="@+id/angka4"
+                    android:id="@+id/jariAngka4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    app:srcCompat="@drawable/angka4" />
+                    app:srcCompat="@drawable/jariangka4" />
 
             </androidx.cardview.widget.CardView>
 
@@ -140,11 +140,11 @@
                 app:layout_row="3">
 
                 <ImageView
-                    android:id="@+id/angka5"
+                    android:id="@+id/jariAngka5"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    app:srcCompat="@drawable/angka5" />
+                    app:srcCompat="@drawable/jariangka5" />
 
             </androidx.cardview.widget.CardView>
 
@@ -158,11 +158,11 @@
                 app:layout_row="3">
 
                 <ImageView
-                    android:id="@+id/angka6"
+                    android:id="@+id/jariAngka6"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    app:srcCompat="@drawable/angka6" />
+                    app:srcCompat="@drawable/jariangka6" />
 
             </androidx.cardview.widget.CardView>
 
@@ -176,11 +176,11 @@
                 app:layout_row="4">
 
                 <ImageView
-                    android:id="@+id/angka7"
+                    android:id="@+id/jariAngka7"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    app:srcCompat="@drawable/angka7" />
+                    app:srcCompat="@drawable/jariangka7" />
 
             </androidx.cardview.widget.CardView>
 
@@ -194,11 +194,11 @@
                 app:layout_row="4">
 
                 <ImageView
-                    android:id="@+id/angka8"
+                    android:id="@+id/jariAngka8"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    app:srcCompat="@drawable/angka8" />
+                    app:srcCompat="@drawable/jariangka8" />
 
             </androidx.cardview.widget.CardView>
 
@@ -214,11 +214,11 @@
             app:cardCornerRadius="10dp">
 
             <ImageView
-                android:id="@+id/angka9"
+                android:id="@+id/JariAngka9"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                app:srcCompat="@drawable/angka9" />
+                app:srcCompat="@drawable/jariangka9" />
         </androidx.cardview.widget.CardView>
 
     </androidx.cardview.widget.CardView>

@@ -7,9 +7,9 @@
     tools:context=".SoalMenulis">
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/cardView2"
+        android:id="@+id/cardVie"
         android:layout_width="400dp"
-        android:layout_height="310dp"
+        android:layout_height="290dp"
         android:layout_marginTop="16dp"
         app:cardBackgroundColor="@color/cardcolor1"
         app:cardCornerRadius="10dp"
@@ -18,7 +18,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
-            android:id="@+id/linearLayout3"
+
             android:layout_width="wrap_content"
             android:layout_height="50dp"
             android:layout_marginLeft="5dp"
@@ -26,7 +26,7 @@
             android:orientation="horizontal">
 
             <ImageButton
-                android:id="@+id/btnback3"
+                android:id="@+id/btn_back11"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@null"
@@ -35,7 +35,6 @@
                 app:srcCompat="@drawable/ic_arrow" />
 
             <TextView
-                android:id="@+id/jMenulis1"
                 android:layout_width="wrap_content"
                 android:layout_height="42dp"
                 android:layout_centerHorizontal="true"
@@ -46,7 +45,6 @@
         </LinearLayout>
 
         <ImageView
-            android:id="@+id/imageView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="top"
@@ -55,38 +53,34 @@
             app:srcCompat="@drawable/backgroundsoal" />
 
         <ImageView
-            android:id="@+id/imageAyah1"
             android:layout_width="190dp"
             android:layout_height="210dp"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
             app:srcCompat="@drawable/imageayah" />
+
         <TextView
-            android:id="@+id/ayah"
             android:layout_width="61dp"
             android:layout_height="36dp"
             android:layout_gravity="center"
-            android:text="Ayah"
             android:layout_marginTop="130dp"
-            android:textAppearance="@style/font_soalbaca"
-            />
+            android:text="Ayah"
+            android:textAppearance="@style/font_soalbaca" />
 
         <ImageButton
-            android:id="@+id/imageButton3"
+            android:id="@+id/btnSublvl11"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@null"
-            app:srcCompat="@drawable/list_alt"
-            android:layout_marginRight="20dp"
+            android:layout_gravity="right"
             android:layout_marginTop="20dp"
-            android:layout_gravity="right"/>
-
-
+            android:layout_marginRight="20dp"
+            android:background="@null"
+            app:srcCompat="@drawable/list_alt" />
     </androidx.cardview.widget.CardView>
 
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/cardView3"
+        android:id="@+id/cardVie3"
         android:layout_width="400dp"
         android:layout_height="300dp"
         android:layout_marginTop="24dp"
@@ -94,7 +88,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.454"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cardView2">
+        app:layout_constraintTop_toBottomOf="@+id/cardVie">
 
         <androidx.cardview.widget.CardView
             android:layout_width="400dp"
@@ -105,17 +99,15 @@
             tools:layout_editor_absoluteY="342dp">
 
             <TextView
-                android:id="@+id/judulsoal1"
                 android:layout_width="171dp"
                 android:layout_height="24dp"
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="8dp"
-                android:text="Bacalah Kata berikut !"
+                android:text="Tulislah Kata Berikut!"
                 android:textAppearance="@style/teks_soal" />
 
 
             <LinearLayout
-                android:id="@+id/linJawab1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -129,7 +121,7 @@
                     app:cardCornerRadius="20dp">
 
                     <ImageButton
-                        android:id="@+id/btnSuara"
+                        android:id="@+id/btnS_ayah11"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
@@ -144,12 +136,12 @@
                     android:layout_marginLeft="10dp">
 
                     <com.google.android.material.textfield.TextInputEditText
-                        android:id="@+id/form_menulis"
+                        android:id="@+id/form_menulis11"
                         android:layout_width="230dp"
                         android:layout_height="50dp"
                         android:ems="15"
                         android:hint="Jawab....."
-                        android:inputType="textEmailAddress"
+                        android:inputType="text"
                         android:paddingLeft="10dp" />
                 </com.google.android.material.textfield.TextInputLayout>
             </LinearLayout>
@@ -198,18 +190,18 @@
     </androidx.cardview.widget.CardView>
 
     <Button
-        android:id="@+id/btnLanjut01"
+        android:id="@+id/btnSubmit7"
         android:layout_width="380dp"
         android:layout_height="50dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="16dp"
         android:backgroundTint="@color/btnwarna"
-        android:text="Selanjutnya"
+        android:text="Submit"
         android:textColor="@color/btntxtwarna"
         android:textSize="14sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintHorizontal_bias="0.483"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cardView3"></Button>
+        app:layout_constraintTop_toBottomOf="@+id/cardVie3"></Button>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -10,6 +10,63 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CahPintar">
         <activity
+            android:name=".Progress"
+            android:exported="true" />
+        <activity
+            android:name=".Profil"
+            android:exported="true" />
+        <activity
+            android:name=".Home"
+            android:exported="true" />
+        <activity
+            android:name=".SoalMenulisLv22"
+            android:exported="true" />
+        <activity
+            android:name=".SoalMenulisLv21"
+            android:exported="true" />
+        <activity
+            android:name=".SoalBerbicaraLv24"
+            android:exported="true" />
+        <activity
+            android:name=".SoalBerbicaraLv23"
+            android:exported="true" />
+        <activity
+            android:name=".SoalBerbicaraLv22"
+            android:exported="true" />
+        <activity
+            android:name=".SoalBerbicaralvl21"
+            android:exported="true" />
+        <activity
+            android:name=".SoalMembacalv24"
+            android:exported="true" />
+        <activity
+            android:name=".SoalMembacaLv23"
+            android:exported="true" />
+        <activity
+            android:name=".SoalMenulis13"
+            android:exported="true" />
+        <activity
+            android:name=".SoalMenulis12"
+            android:exported="true" />
+        <activity
+            android:name=".SoalMembaca13"
+            android:exported="true" />
+        <activity
+            android:name=".SoalMembacaLv22"
+            android:exported="true" />
+        <activity
+            android:name=".SoalBacaLv21"
+            android:exported="true" />
+        <activity
+            android:name=".SoalMembaca"
+            android:exported="true" />
+        <activity
+            android:name=".SoalBerbicara13"
+            android:exported="true" />
+        <activity
+            android:name=".PengenalanAngka3"
+            android:exported="true" />
+        <activity
             android:name=".SoalBerbicara12"
             android:exported="true" />
         <activity

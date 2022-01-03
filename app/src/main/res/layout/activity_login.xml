@@ -52,29 +52,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
 
-    <TextView
-        android:id="@+id/cahpintar"
-        android:layout_width="81dp"
-        android:layout_height="24dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="52dp"
-        android:gravity="center_horizontal|top"
-        android:text="CahPintar"
-        android:textAppearance="@style/judul"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button3">
+        app:layout_constraintTop_toBottomOf="@+id/btnLogin">
 
         <TextView
             android:id="@+id/donthave"
@@ -89,7 +75,7 @@
             tools:layout_editor_absoluteY="550dp" />
 
         <TextView
-            android:id="@+id/signUp"
+            android:id="@+id/txtSignUp"
             android:layout_width="48dp"
             android:layout_height="22dp"
             android:layout_alignParentLeft="true"
@@ -118,7 +104,7 @@
             app:passwordToggleEnabled="true">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/password_edit_text"
+                android:id="@+id/loginPassword"
                 android:layout_width="310dp"
                 android:layout_height="50dp"
                 android:ems="15"
@@ -147,7 +133,7 @@
             android:layout_marginLeft="10dp">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/email_edit_text"
+                android:id="@+id/loginEmail"
                 android:layout_width="310dp"
                 android:layout_height="50dp"
                 android:ems="15"
@@ -162,7 +148,7 @@
 
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btnLogin"
         android:layout_width="306dp"
         android:layout_height="54dp"
         android:layout_marginTop="448dp"
@@ -174,5 +160,14 @@
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

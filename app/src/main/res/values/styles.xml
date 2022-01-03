@@ -19,6 +19,13 @@
     <style name="fomInputBox2" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
         <item name="boxStrokeColor">#FFFFFF</item>
         <item name="boxStrokeWidth">2dp</item>
+
+    </style>
+
+    <style name="fomInputBox3" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">#E65002</item>
+        <item name="boxStrokeWidth">2dp</item>
+        <item name="android:background">@color/white</item>
     </style>
 
     <style name="judul">
@@ -42,6 +49,7 @@
 
     <style name="judul_menu">
         <item name="android:textSize">24sp</item>
+        <item name="android:fontFamily">@font/poppins_reg</item>
         <item name="android:letterSpacing">0.01</item>
         <item name="android:textColor">#323232</item>
     </style>
@@ -66,6 +74,25 @@
 
     <style name="font_voice">
         <item name="android:textSize">24sp</item>
+        <item name="android:fontFamily">@font/poppins_reg</item>
         <item name="android:textColor">#E65002</item>
+    </style>
+
+    <style name="font_profil">
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textColor">#434343</item>
+    </style>
+
+    <style name="font_form_profil">
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="font_form_profil2">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textColor">@color/black</item>
     </style>
 </resources>

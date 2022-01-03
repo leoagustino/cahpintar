@@ -6,19 +6,20 @@
     android:layout_height="match_parent"
     tools:context=".SoalBerbicara12">
 
+
     <androidx.cardview.widget.CardView
-        android:id="@+id/cardView2x"
+        android:id="@+id/card2x1"
         android:layout_width="400dp"
-        android:layout_height="310dp"
+        android:layout_height="290dp"
         android:layout_marginTop="16dp"
         app:cardBackgroundColor="@color/cardcolor1"
         app:cardCornerRadius="10dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
-            android:id="@+id/linearLayout3"
             android:layout_width="wrap_content"
             android:layout_height="50dp"
             android:layout_marginLeft="5dp"
@@ -26,7 +27,7 @@
             android:orientation="horizontal">
 
             <ImageButton
-                android:id="@+id/btnback3"
+                android:id="@+id/btnBack12"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@null"
@@ -46,7 +47,6 @@
         </LinearLayout>
 
         <ImageView
-            android:id="@+id/imageView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="top"
@@ -63,7 +63,6 @@
             app:srcCompat="@drawable/imageibu" />
 
         <TextView
-            android:id="@+id/ibu12"
             android:layout_width="61dp"
             android:layout_height="36dp"
             android:layout_gravity="center"
@@ -72,7 +71,7 @@
             android:textAppearance="@style/font_soalbaca" />
 
         <ImageButton
-            android:id="@+id/imageButton31"
+            android:id="@+id/btnSubLevel12"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="right"
@@ -84,9 +83,8 @@
 
     </androidx.cardview.widget.CardView>
 
-
     <androidx.cardview.widget.CardView
-        android:id="@+id/cardView3"
+        android:id="@+id/cardView3x1"
         android:layout_width="400dp"
         android:layout_height="300dp"
         android:layout_marginTop="20dp"
@@ -94,7 +92,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.454"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cardView2x">
+        app:layout_constraintTop_toBottomOf="@+id/card2x1">
 
         <androidx.cardview.widget.CardView
             android:layout_width="400dp"
@@ -105,7 +103,6 @@
             tools:layout_editor_absoluteY="342dp">
 
             <TextView
-                android:id="@+id/judulsoalb1"
                 android:layout_width="wrap_content"
                 android:layout_height="24dp"
                 android:layout_marginLeft="12dp"
@@ -115,7 +112,6 @@
 
 
             <LinearLayout
-                android:id="@+id/linJawab1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -129,7 +125,7 @@
                     app:cardCornerRadius="20dp">
 
                     <ImageButton
-                        android:id="@+id/btnSuara"
+                        android:id="@+id/btnSoundIbu"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
@@ -144,12 +140,12 @@
                     app:cardCornerRadius="20dp">
 
                     <TextView
-                        android:id="@+id/ayah1"
                         android:layout_width="61dp"
                         android:layout_height="36dp"
                         android:layout_gravity="center"
                         android:text="Ibu"
                         android:textAppearance="@style/font_soalbaca" />
+
                 </androidx.cardview.widget.CardView>
 
             </LinearLayout>
@@ -165,7 +161,7 @@
             android:orientation="horizontal">
 
             <ImageButton
-                android:id="@+id/btn_voice"
+                android:id="@+id/btn_voice2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
@@ -173,7 +169,6 @@
                 app:srcCompat="@drawable/mic" />
 
             <TextView
-                android:id="@+id/ketuk_untuk"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
@@ -185,18 +180,18 @@
     </androidx.cardview.widget.CardView>
 
     <Button
-        android:id="@+id/btnLanjut02"
+        android:id="@+id/btnSubmit2"
         android:layout_width="380dp"
         android:layout_height="50dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="12dp"
         android:backgroundTint="@color/btnwarna"
-        android:text="Selanjutnya"
+        android:text="Submit"
         android:textColor="@color/btntxtwarna"
         android:textSize="14sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintHorizontal_bias="0.483"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cardView3"></Button>
+        app:layout_constraintTop_toBottomOf="@+id/cardView3x1" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
