@@ -4,7 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".tesiq14">
+    tools:context=".testiq3">
+
+
     <View
         android:id="@+id/header"
         android:layout_width="409dp"
@@ -57,7 +59,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:background="@drawable/bukua"
+        android:background="@drawable/kupukupu"
         app:layout_constraintBottom_toTopOf="@+id/cardtest4"
         app:layout_constraintEnd_toStartOf="@+id/cardtest2"
         app:layout_constraintHorizontal_bias="0.5"
@@ -72,7 +74,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:background="@drawable/bukub"
+        android:background="@drawable/harimau"
         app:layout_constraintBottom_toTopOf="@+id/cardtest3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -86,32 +88,32 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:background="@drawable/bukud"
-        app:layout_constraintBottom_toTopOf="@+id/button14"
+        android:background="@drawable/kelinci"
+        app:layout_constraintBottom_toTopOf="@+id/button3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/cardtest4"
         app:layout_constraintTop_toBottomOf="@+id/cardtest2" />
 
-    <ImageButton
+       <ImageButton
         android:id="@+id/cardtest4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:background="@drawable/bukuc"
-        app:layout_constraintBottom_toTopOf="@+id/button14"
+        android:background="@drawable/kucing"
+        app:layout_constraintBottom_toTopOf="@+id/button3"
         app:layout_constraintEnd_toStartOf="@+id/cardtest3"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cardtest" />
 
+
     <ImageButton
-        android:id="@+id/button14"
+        android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#FFD984"
-        android:minHeight="48dp"
         android:src="@drawable/ic_baseline_volume_mute_24"
         android:viewportWidth="70"
         android:viewportHeight="40"
@@ -119,6 +121,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cardtest3"
-        tools:ignore="SpeakableTextPresentCheck" />
+        app:layout_constraintTop_toBottomOf="@+id/cardtest3" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

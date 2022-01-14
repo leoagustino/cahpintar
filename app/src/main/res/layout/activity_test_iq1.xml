@@ -4,7 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".tesiq14">
+    tools:context=".TestIq1">
+
+
     <View
         android:id="@+id/header"
         android:layout_width="409dp"
@@ -57,14 +59,32 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:background="@drawable/bukua"
+        android:background="@drawable/cardtesiq"
+        android:src="@drawable/alpukat"
         app:layout_constraintBottom_toTopOf="@+id/cardtest4"
         app:layout_constraintEnd_toStartOf="@+id/cardtest2"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/header" />
 
-
+    <TextView
+        android:id="@+id/a"
+        android:layout_width="11dp"
+        android:layout_height="23dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="78dp"
+        android:layout_marginBottom="191dp"
+        android:gravity="center_horizontal|top"
+        android:text="A"
+        android:textAppearance="@style/a"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/cardtest"
+        app:layout_constraintEnd_toEndOf="@+id/cardtest"
+        app:layout_constraintStart_toStartOf="@+id/cardtest"
+        app:layout_constraintTop_toBottomOf="@+id/header" />
 
     <ImageButton
         android:id="@+id/cardtest2"
@@ -72,7 +92,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:background="@drawable/bukub"
+        android:background="@drawable/cardtesiq"
+        android:src="@drawable/jeruk"
         app:layout_constraintBottom_toTopOf="@+id/cardtest3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -86,12 +107,50 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:background="@drawable/bukud"
-        app:layout_constraintBottom_toTopOf="@+id/button14"
+        android:background="@drawable/cardtesiq"
+        android:src="@drawable/pisang"
+        app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/cardtest4"
         app:layout_constraintTop_toBottomOf="@+id/cardtest2" />
+
+    <TextView
+        android:id="@+id/d"
+        android:layout_width="11dp"
+        android:layout_height="23dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal|top"
+        android:text="D"
+        android:textAppearance="@style/a"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/cardtest3"
+        app:layout_constraintEnd_toEndOf="@+id/cardtest3"
+        app:layout_constraintHorizontal_bias="0.464"
+        app:layout_constraintStart_toStartOf="@+id/cardtest3"
+        app:layout_constraintTop_toTopOf="@+id/cardtest3"
+        app:layout_constraintVertical_bias="0.077" />
+
+    <TextView
+        android:id="@+id/b"
+        android:layout_width="11dp"
+        android:layout_height="23dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="78dp"
+        android:layout_marginBottom="191dp"
+        android:gravity="center_horizontal|top"
+        android:text="B"
+        android:textAppearance="@style/a"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/cardtest2"
+        app:layout_constraintEnd_toEndOf="@+id/cardtest2"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/a"
+        app:layout_constraintTop_toTopOf="@+id/cardtest2" />
 
     <ImageButton
         android:id="@+id/cardtest4"
@@ -99,19 +158,40 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:background="@drawable/bukuc"
-        app:layout_constraintBottom_toTopOf="@+id/button14"
+        android:background="@drawable/cardtesiq"
+        android:src="@drawable/appel"
+        app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toStartOf="@+id/cardtest3"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cardtest" />
 
+    <TextView
+        android:id="@+id/c"
+        android:layout_width="11dp"
+        android:layout_height="23dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="78dp"
+        android:layout_marginBottom="191dp"
+        android:gravity="center_horizontal|top"
+        android:text="C"
+        android:textAppearance="@style/a"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/cardtest4"
+        app:layout_constraintEnd_toEndOf="@+id/cardtest4"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/cardtest4"
+        app:layout_constraintTop_toTopOf="@+id/cardtest4"
+        app:layout_constraintVertical_bias="0.0" />
+
     <ImageButton
-        android:id="@+id/button14"
+        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#FFD984"
-        android:minHeight="48dp"
         android:src="@drawable/ic_baseline_volume_mute_24"
         android:viewportWidth="70"
         android:viewportHeight="40"
@@ -119,6 +199,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cardtest3"
-        tools:ignore="SpeakableTextPresentCheck" />
+        app:layout_constraintTop_toBottomOf="@+id/cardtest3" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
