@@ -7,11 +7,13 @@
         <entry key="app/src/main/res/drawable/form_setting.xml" value="0.22256944444444443" />
         <entry key="app/src/main/res/drawable/rounded_corner.xml" value="0.22256944444444443" />
         <entry key="app/src/main/res/drawable/selector.xml" value="0.12361111111111112" />
+        <entry key="app/src/main/res/layout/activity_congrats.xml" value="0.2" />
         <entry key="app/src/main/res/layout/activity_dash_board.xml" value="0.16" />
         <entry key="app/src/main/res/layout/activity_forget_password.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_forget_password2.xml" value="0.296195652173913" />
         <entry key="app/src/main/res/layout/activity_home.xml" value="0.13114754098360656" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.296195652173913" />
+        <entry key="app/src/main/res/layout/activity_lv4_cmmembaca.xml" value="0.19322916666666667" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1693840579710145" />
         <entry key="app/src/main/res/layout/activity_menu_membaca.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_menu_menghitung.xml" value="0.2427536231884058" />
@@ -30,6 +32,8 @@
         <entry key="app/src/main/res/layout/activity_soal_berbicara13.xml" value="0.20594262295081966" />
         <entry key="app/src/main/res/layout/activity_soal_berbicara_lv22.xml" value="0.21180555555555555" />
         <entry key="app/src/main/res/layout/activity_soal_berbicara_lv24.xml" value="0.21180555555555555" />
+        <entry key="app/src/main/res/layout/activity_soal_berbicara_lv41.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_soal_berbicara_lv42.xml" value="0.11548913043478261" />
         <entry key="app/src/main/res/layout/activity_soal_berbicaralv23.xml" value="0.21180555555555555" />
         <entry key="app/src/main/res/layout/activity_soal_berbicaralvl21.xml" value="0.21180555555555555" />
         <entry key="app/src/main/res/layout/activity_soal_berbicaralvl22.xml" value="0.21180555555555555" />
@@ -38,12 +42,33 @@
         <entry key="app/src/main/res/layout/activity_soal_membaca13.xml" value="0.21180555555555555" />
         <entry key="app/src/main/res/layout/activity_soal_membaca_lv22.xml" value="0.21180555555555555" />
         <entry key="app/src/main/res/layout/activity_soal_membaca_lv23.xml" value="0.21180555555555555" />
+        <entry key="app/src/main/res/layout/activity_soal_membaca_lv41.xml" value="0.19322916666666667" />
+        <entry key="app/src/main/res/layout/activity_soal_membaca_lv42.xml" value="0.16394927536231885" />
+        <entry key="app/src/main/res/layout/activity_soal_membaca_lv43.xml" value="0.19322916666666667" />
         <entry key="app/src/main/res/layout/activity_soal_membacalv24.xml" value="0.21180555555555555" />
         <entry key="app/src/main/res/layout/activity_soal_menulis.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_soal_menulis12.xml" value="0.14105191256830601" />
         <entry key="app/src/main/res/layout/activity_soal_menulis13.xml" value="0.21180555555555555" />
         <entry key="app/src/main/res/layout/activity_soal_menulis_lv21.xml" value="0.21180555555555555" />
         <entry key="app/src/main/res/layout/activity_soal_menulis_lv22.xml" value="0.21180555555555555" />
+        <entry key="app/src/main/res/layout/activity_soal_menulis_lv41.xml" value="0.16802536231884058" />
+        <entry key="app/src/main/res/layout/activity_soal_menulis_lv42.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_soal_menulis_lv43.xml" value="0.19322916666666667" />
+        <entry key="app/src/main/res/layout/activity_tesiq10.xml" value="0.1453804347826087" />
+        <entry key="app/src/main/res/layout/activity_tesiq11.xml" value="0.13858695652173914" />
+        <entry key="app/src/main/res/layout/activity_tesiq12.xml" value="0.13858695652173914" />
+        <entry key="app/src/main/res/layout/activity_tesiq13.xml" value="0.13858695652173914" />
+        <entry key="app/src/main/res/layout/activity_tesiq14.xml" value="0.13858695652173914" />
+        <entry key="app/src/main/res/layout/activity_tesiq15.xml" value="0.13858695652173914" />
+        <entry key="app/src/main/res/layout/activity_tesiq5.xml" value="0.1503623188405797" />
+        <entry key="app/src/main/res/layout/activity_tesiq6.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_tesiq7.xml" value="0.14855072463768115" />
+        <entry key="app/src/main/res/layout/activity_tesiq8.xml" value="0.1453804347826087" />
+        <entry key="app/src/main/res/layout/activity_test_iq1.xml" value="0.1453804347826087" />
+        <entry key="app/src/main/res/layout/activity_testiq2.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_testiq3.xml" value="0.15307971014492755" />
+        <entry key="app/src/main/res/layout/activity_testiq4.xml" value="0.15307971014492755" />
+        <entry key="app/src/main/res/layout/activity_testiq9.xml" value="0.1453804347826087" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.21180555555555555" />
         <entry key="app/src/main/res/layout/fragment_profil.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_progress.xml" value="0.25" />

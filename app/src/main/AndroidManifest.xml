@@ -10,100 +10,76 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CahPintar">
         <activity
-            android:name=".Progress"
+            android:name=".soal_menulis_lv43"
             android:exported="true" />
         <activity
-            android:name=".Profil"
+            android:name=".soal_membaca_lv43"
             android:exported="true" />
         <activity
-            android:name=".Home"
+            android:name=".soal_berbicara_lv42"
             android:exported="true" />
         <activity
-            android:name=".SoalMenulisLv22"
+            android:name=".soal_menulis_lv42"
             android:exported="true" />
         <activity
-            android:name=".SoalMenulisLv21"
+            android:name=".soal_membaca_lv42"
             android:exported="true" />
         <activity
-            android:name=".SoalBerbicaraLv24"
+            android:name=".soal_berbicara_lv41"
             android:exported="true" />
         <activity
-            android:name=".SoalBerbicaraLv23"
+            android:name=".soal_menulis_lv41"
             android:exported="true" />
         <activity
-            android:name=".SoalBerbicaraLv22"
+            android:name=".congrats"
             android:exported="true" />
         <activity
-            android:name=".SoalBerbicaralvl21"
+            android:name=".tesiq15"
             android:exported="true" />
         <activity
-            android:name=".SoalMembacalv24"
+            android:name=".tesiq14"
             android:exported="true" />
         <activity
-            android:name=".SoalMembacaLv23"
+            android:name=".tesiq13"
             android:exported="true" />
         <activity
-            android:name=".SoalMenulis13"
+            android:name=".tesiq12"
             android:exported="true" />
         <activity
-            android:name=".SoalMenulis12"
+            android:name=".tesiq11"
             android:exported="true" />
         <activity
-            android:name=".SoalMembaca13"
+            android:name=".tesiq10"
             android:exported="true" />
         <activity
-            android:name=".SoalMembacaLv22"
+            android:name=".testiq9"
             android:exported="true" />
         <activity
-            android:name=".SoalBacaLv21"
+            android:name=".tesiq8"
             android:exported="true" />
         <activity
-            android:name=".SoalMembaca"
+            android:name=".tesiq7"
             android:exported="true" />
         <activity
-            android:name=".SoalBerbicara13"
+            android:name=".tesiq6"
             android:exported="true" />
         <activity
-            android:name=".PengenalanAngka3"
+            android:name=".tesiq5"
             android:exported="true" />
         <activity
-            android:name=".SoalBerbicara12"
+            android:name=".testiq4"
             android:exported="true" />
         <activity
-            android:name=".SoalMembaca12"
+            android:name=".soal_membaca_lv41"
             android:exported="true" />
         <activity
-            android:name=".SoalBerbicara"
+            android:name=".testiq3"
             android:exported="true" />
         <activity
-            android:name=".SoalMenulis"
+            android:name=".testiq2"
             android:exported="true" />
         <activity
-            android:name=".PengenalanHuruf"
-            android:exported="true" />
-        <activity
-            android:name=".PengenalanAngka2"
-            android:exported="true" />
-        <activity
-            android:name=".PengenalanAngka"
-            android:exported="true" />
-        <activity
-            android:name=".MenuMenghitung"
-            android:exported="true" />
-        <activity
-            android:name=".MenuMembaca"
-            android:exported="true" />
-        <activity
-            android:name=".forgetPassword2"
-            android:exported="true" />
-        <activity
-            android:name=".forgetPassword"
-            android:exported="true" />
-        <activity
-            android:name=".register"
-            android:exported="true" />
-        <activity
-            android:name=".login"
+            android:name=".TestIq1"
             android:exported="true" />
         <activity
             android:name=".MainActivity"

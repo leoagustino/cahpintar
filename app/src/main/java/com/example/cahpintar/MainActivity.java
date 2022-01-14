@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -13,105 +14,20 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-       /* findViewById(R.id.btn1).setOnClickListener(new View.OnClickListener() {
+        Button btnStart = findViewById((R.id.start));
+        btnStart.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(getApplicationContext(), login.class));
+                startActivity(new Intent(MainActivity.this, TestIq1.class));
             }
         });
 
-
-        findViewById(R.id.btn2).setOnClickListener(new View.OnClickListener() {
+        Button btnStart2 = findViewById((R.id.start2));
+        btnStart2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(getApplicationContext(), register.class));
+                startActivity(new Intent(MainActivity.this, testiq2.class));
             }
         });
-
-        findViewById(R.id.btn3).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(getApplicationContext(), forgetPassword.class));
-            }
-        });
-
-        findViewById(R.id.btn4).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(getApplicationContext(), forgetPassword2.class));
-            }
-        });
-
-        findViewById(R.id.btn5).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(getApplicationContext(), MenuMembaca.class));
-            }
-        });
-
-        findViewById(R.id.btn6).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(getApplicationContext(), MenuMenghitung.class));
-            }
-        });
-
-        findViewById(R.id.btn7).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(getApplicationContext(), PengenalanHuruf.class));
-            }
-        });
-
-        findViewById(R.id.btn8).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(getApplicationContext(), PengenalanAngka.class));
-            }
-        });
-
-        findViewById(R.id.btn9).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(getApplicationContext(), PengenalanAngka2.class));
-            }
-        });
-
-        findViewById(R.id.btn10).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(getApplicationContext(), SoalMenulis.class));
-            }
-        });
-
-        findViewById(R.id.btn11).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(getApplicationContext(), PengenalanHuruf.class));
-            }
-        });
-
-        findViewById(R.id.btn12).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(getApplicationContext(), SoalBerbicara.class));
-            }
-        });
-
-        findViewById(R.id.btn13).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(getApplicationContext(), SoalBerbicara12.class));
-            }
-        });
-
-        findViewById(R.id.btn14).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(getApplicationContext(), Home.class));
-            }
-        });*/
-
     }
-
-    }
+}
