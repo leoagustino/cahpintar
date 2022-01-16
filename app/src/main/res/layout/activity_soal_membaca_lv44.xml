@@ -4,9 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".soal_membaca_lv42">
-
-
+    tools:context=".soal_membaca_lv44">
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView2x13"
         android:layout_width="400dp"
@@ -62,7 +60,7 @@
             android:layout_height="210dp"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
-            app:srcCompat="@drawable/ibumemasak" />
+            app:srcCompat="@drawable/anibermain" />
 
         <TextView
 
@@ -70,7 +68,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="130dp"
-            android:text="Ibu memasak nasi goreng"
+            android:text="Ani sedang bermain boneka"
             android:textAppearance="@style/font_soalbaca" />
 
         <ImageButton
@@ -131,7 +129,7 @@
                     app:cardCornerRadius="20dp">
 
                     <ImageButton
-                        android:id="@+id/btnSuaraMembaca42"
+                        android:id="@+id/btnSuaraMembaca44"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
@@ -152,7 +150,7 @@
                         android:layout_width="252dp"
                         android:layout_height="34dp"
                         android:layout_gravity="center"
-                        android:text="Ibu memasak nasi goreng"
+                        android:text="Ani ssedang bermain boneka"
                         android:textAppearance="@style/ayah_mencuc" />
                 </androidx.cardview.widget.CardView>
 
@@ -173,7 +171,15 @@
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
                 android:background="@null"
-                app:srcCompat="@drawable/s_ibumemasak" />
+                app:srcCompat="@drawable/ani" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:background="@null"
+                app:srcCompat="@drawable/sedang" />
+
 
         </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -181,28 +187,37 @@
             android:layout_width="wrap_content"
             android:layout_height="67dp"
             android:layout_gravity="center"
-            android:layout_marginTop="60dp"
+            android:layout_marginTop="50dp"
             android:orientation="horizontal">
 
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
                 android:layout_marginRight="10dp"
                 android:background="@null"
-                app:srcCompat="@drawable/s_nasi" />
+                app:srcCompat="@drawable/bermain" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="67dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="110dp"
+            android:orientation="horizontal">
 
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
                 android:layout_marginRight="10dp"
                 android:background="@null"
-                app:srcCompat="@drawable/s_goreng" />
+                app:srcCompat="@drawable/boneka" />
         </androidx.appcompat.widget.LinearLayoutCompat>
+
 
     </androidx.cardview.widget.CardView>
 
     <Button
-        android:id="@+id/submit8"
+        android:id="@+id/submit10"
         android:layout_width="380dp"
         android:layout_height="50dp"
         android:layout_marginTop="20dp"
@@ -215,6 +230,5 @@
         app:layout_constraintHorizontal_bias="0.516"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cardb" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

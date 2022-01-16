@@ -10,6 +10,27 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CahPintar">
         <activity
+            android:name=".soal_berbicara_lv45"
+            android:exported="true" />
+        <activity
+            android:name=".soal_menulis_lv45"
+            android:exported="true" />
+        <activity
+            android:name=".soal_membaca_lv45"
+            android:exported="true" />
+        <activity
+            android:name=".soal_berbicara_lv44"
+            android:exported="true" />
+        <activity
+            android:name=".soal_menulis_lv44"
+            android:exported="true" />
+        <activity
+            android:name=".soal_membaca_lv44"
+            android:exported="true" />
+        <activity
+            android:name=".soal_berbicara_lv43"
+            android:exported="true" />
+        <activity
             android:name=".soal_menulis_lv43"
             android:exported="true" />
         <activity

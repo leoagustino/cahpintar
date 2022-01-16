@@ -4,11 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".soal_membaca_lv42">
-
-
+    tools:context=".soal_berbicara_lv45">
     <androidx.cardview.widget.CardView
-        android:id="@+id/cardView2x13"
+        android:id="@+id/cbicaralvl24"
         android:layout_width="400dp"
         android:layout_height="290dp"
         android:layout_marginTop="16dp"
@@ -27,16 +25,13 @@
             android:orientation="horizontal">
 
             <ImageButton
-                android:id="@+id/btnback123"
+                android:id="@+id/btnBackb1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@null"
-                android:minWidth="48dp"
-                android:minHeight="48dp"
                 android:paddingLeft="5dp"
                 android:paddingTop="5dp"
-                app:srcCompat="@drawable/ic_arrow"
-                tools:ignore="SpeakableTextPresentCheck" />
+                app:srcCompat="@drawable/ic_arrow" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -44,12 +39,11 @@
                 android:layout_centerHorizontal="true"
                 android:layout_centerVertical="true"
                 android:gravity="center_horizontal|top"
-                android:text="Membaca"
+                android:text="Berbicara"
                 android:textAppearance="@style/judul_menu" />
         </LinearLayout>
 
         <ImageView
-
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="top"
@@ -62,43 +56,39 @@
             android:layout_height="210dp"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
-            app:srcCompat="@drawable/ibumemasak" />
+            app:srcCompat="@drawable/sayasuka" />
 
         <TextView
-
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="130dp"
-            android:text="Ibu memasak nasi goreng"
+            android:text="Saya suka bermain bola"
             android:textAppearance="@style/font_soalbaca" />
 
         <ImageButton
-            android:id="@+id/btnSubLevel13"
+            android:id="@+id/btnSubUcap21"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="right"
             android:layout_marginTop="20dp"
             android:layout_marginRight="20dp"
             android:background="@null"
-            android:minWidth="48dp"
-            android:minHeight="48dp"
-            app:srcCompat="@drawable/list_alt"
-            tools:ignore="SpeakableTextPresentCheck" />
+            app:srcCompat="@drawable/list_alt" />
 
 
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/cardb"
+        android:id="@+id/cardbicaralvl21"
         android:layout_width="400dp"
         android:layout_height="300dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="24dp"
         app:cardCornerRadius="15dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.454"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cardView2x13">
+        app:layout_constraintTop_toBottomOf="@+id/cbicaralvl24">
 
         <androidx.cardview.widget.CardView
             android:layout_width="400dp"
@@ -113,7 +103,7 @@
                 android:layout_height="24dp"
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="8dp"
-                android:text="Bacalah Kata berikut!"
+                android:text="Ucapkanlah Kata berikut!"
                 android:textAppearance="@style/teks_soal" />
 
 
@@ -131,28 +121,25 @@
                     app:cardCornerRadius="20dp">
 
                     <ImageButton
-                        android:id="@+id/btnSuaraMembaca42"
+                        android:id="@+id/btnSound45"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:background="@null"
-                        android:minWidth="48dp"
-                        android:minHeight="48dp"
-                        app:srcCompat="@drawable/ic_volume"
-                        tools:ignore="SpeakableTextPresentCheck" />
+                        app:srcCompat="@drawable/ic_volume" />
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:layout_width="289dp"
+                    android:layout_width="300dp"
                     android:layout_height="50dp"
                     android:layout_marginLeft="20dp"
                     app:cardCornerRadius="20dp">
 
                     <TextView
-                        android:layout_width="252dp"
+                        android:layout_width="256dp"
                         android:layout_height="34dp"
                         android:layout_gravity="center"
-                        android:text="Ibu memasak nasi goreng"
+                        android:text="Saya suka bermain bola"
                         android:textAppearance="@style/ayah_mencuc" />
                 </androidx.cardview.widget.CardView>
 
@@ -163,46 +150,32 @@
 
         <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="wrap_content"
-            android:layout_height="88dp"
+            android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="35dp"
             android:orientation="horizontal">
 
-            <ImageView
+            <ImageButton
+                android:id="@+id/voice5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
                 android:background="@null"
-                app:srcCompat="@drawable/s_ibumemasak" />
+                app:srcCompat="@drawable/mic" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Ketuk Untuk Berbicara"
+                android:textAppearance="@style/font_voice" />
+
 
         </androidx.appcompat.widget.LinearLayoutCompat>
-
-        <androidx.appcompat.widget.LinearLayoutCompat
-            android:layout_width="wrap_content"
-            android:layout_height="67dp"
-            android:layout_gravity="center"
-            android:layout_marginTop="60dp"
-            android:orientation="horizontal">
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginRight="10dp"
-                android:background="@null"
-                app:srcCompat="@drawable/s_nasi" />
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginRight="10dp"
-                android:background="@null"
-                app:srcCompat="@drawable/s_goreng" />
-        </androidx.appcompat.widget.LinearLayoutCompat>
-
     </androidx.cardview.widget.CardView>
 
     <Button
-        android:id="@+id/submit8"
+        android:id="@+id/submit15"
         android:layout_width="380dp"
         android:layout_height="50dp"
         android:layout_marginTop="20dp"
@@ -212,9 +185,8 @@
         android:textSize="14sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintHorizontal_bias="0.483"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cardb" />
-
+        app:layout_constraintTop_toBottomOf="@+id/cardbicaralvl21"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".soal_berbicara_lv41">
+
     <androidx.cardview.widget.CardView
         android:id="@+id/cbicaralvl24"
         android:layout_width="400dp"
@@ -156,7 +157,7 @@
             android:orientation="horizontal">
 
             <ImageButton
-                android:id="@+id/btn_voice_mengajar"
+                android:id="@+id/voice3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
@@ -175,7 +176,7 @@
     </androidx.cardview.widget.CardView>
 
     <Button
-        android:id="@+id/btnSmt5"
+        android:id="@+id/submit1"
         android:layout_width="380dp"
         android:layout_height="50dp"
         android:layout_marginTop="20dp"
