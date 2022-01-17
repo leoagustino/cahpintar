@@ -40,6 +40,21 @@
         <entry key="app/src/main/res/layout/activity_soal_berbicaralv23.xml" value="0.21180555555555555" />
         <entry key="app/src/main/res/layout/activity_soal_berbicaralvl21.xml" value="0.21180555555555555" />
         <entry key="app/src/main/res/layout/activity_soal_berbicaralvl22.xml" value="0.21180555555555555" />
+        <entry key="app/src/main/res/layout/activity_soal_jarimatika_lv41.xml" value="0.12192622950819672" />
+        <entry key="app/src/main/res/layout/activity_soal_jarimatika_lv411.xml" value="0.12881944444444443" />
+        <entry key="app/src/main/res/layout/activity_soal_jarimatika_lv412.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_soal_jarimatika_lv42.xml" value="0.12881944444444443" />
+        <entry key="app/src/main/res/layout/activity_soal_jarimatika_lv421.xml" value="0.12881944444444443" />
+        <entry key="app/src/main/res/layout/activity_soal_jarimatika_lv422.xml" value="0.12881944444444443" />
+        <entry key="app/src/main/res/layout/activity_soal_jarimatika_lv43.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_soal_jarimatika_lv431.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_soal_jarimatika_lv432.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_soal_jarimatika_lv44.xml" value="0.12881944444444443" />
+        <entry key="app/src/main/res/layout/activity_soal_jarimatika_lv441.xml" value="0.12881944444444443" />
+        <entry key="app/src/main/res/layout/activity_soal_jarimatika_lv442.xml" value="0.12881944444444443" />
+        <entry key="app/src/main/res/layout/activity_soal_jarimatika_lv45.xml" value="0.12881944444444443" />
+        <entry key="app/src/main/res/layout/activity_soal_jarimatika_lv451.xml" value="0.11875" />
+        <entry key="app/src/main/res/layout/activity_soal_jarimatika_lv452.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_soal_membaca.xml" value="0.19637978142076504" />
         <entry key="app/src/main/res/layout/activity_soal_membaca12.xml" value="0.21180555555555555" />
         <entry key="app/src/main/res/layout/activity_soal_membaca13.xml" value="0.21180555555555555" />
@@ -60,7 +75,7 @@
         <entry key="app/src/main/res/layout/activity_soal_menulis_lv42.xml" value="0.22" />
         <entry key="app/src/main/res/layout/activity_soal_menulis_lv43.xml" value="0.19322916666666667" />
         <entry key="app/src/main/res/layout/activity_soal_menulis_lv44.xml" value="0.19322916666666667" />
-        <entry key="app/src/main/res/layout/activity_soal_menulis_lv45.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_soal_menulis_lv45.xml" value="0.12881944444444443" />
         <entry key="app/src/main/res/layout/activity_tesiq10.xml" value="0.1453804347826087" />
         <entry key="app/src/main/res/layout/activity_tesiq11.xml" value="0.13858695652173914" />
         <entry key="app/src/main/res/layout/activity_tesiq12.xml" value="0.13858695652173914" />

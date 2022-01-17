@@ -10,6 +10,51 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CahPintar">
         <activity
+            android:name=".soal_jarimatika_lv452"
+            android:exported="true" />
+        <activity
+            android:name=".soal_jarimatika_lv451"
+            android:exported="true" />
+        <activity
+            android:name=".soal_jarimatika_lv45"
+            android:exported="true" />
+        <activity
+            android:name=".soal_jarimatika_lv442"
+            android:exported="true" />
+        <activity
+            android:name=".soal_jarimatika_lv441"
+            android:exported="true" />
+        <activity
+            android:name=".soal_jarimatika_lv44"
+            android:exported="true" />
+        <activity
+            android:name=".soal_jarimatika_lv432"
+            android:exported="true" />
+        <activity
+            android:name=".soal_jarimatika_lv431"
+            android:exported="true" />
+        <activity
+            android:name=".soal_jarimatika_lv43"
+            android:exported="true" />
+        <activity
+            android:name=".soal_jarimatika_lv422"
+            android:exported="true" />
+        <activity
+            android:name=".soal_jarimatika_lv421"
+            android:exported="true" />
+        <activity
+            android:name=".soal_jarimatika_lv42"
+            android:exported="true" />
+        <activity
+            android:name=".soal_jarimatika_lv412"
+            android:exported="true" />
+        <activity
+            android:name=".soal_jarimatika_lv411"
+            android:exported="true" />
+        <activity
+            android:name=".soal_jarimatika_lv41"
+            android:exported="true" />
+        <activity
             android:name=".soal_berbicara_lv45"
             android:exported="true" />
         <activity
