@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cahMainActivity">
+
+    <ImageView
+
+        android:id="@+id/imgatas1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bgatas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtSoalNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cah Main : 1/n"
+        android:textAppearance="@style/font_cahmain"
+        app:layout_constraintBottom_toBottomOf="@+id/imgatas1"
+        app:layout_constraintEnd_toEndOf="@+id/imgatas1"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="@+id/imgatas1"
+        app:layout_constraintTop_toTopOf="@+id/imgatas1"
+        app:layout_constraintVertical_bias="0.168" />
+
+    <TextView
+        android:id="@+id/txtSoalCah"
+        android:layout_width="268dp"
+        android:layout_height="40dp"
+        android:text="Berikut ini mana yang gambarnya berbeda dari yang lain"
+        android:textAppearance="@style/font_soal_cahmain"
+        app:layout_constraintBottom_toBottomOf="@+id/imgatas1"
+        app:layout_constraintEnd_toEndOf="@+id/imgatas1"
+        app:layout_constraintHorizontal_bias="0.55"
+        app:layout_constraintStart_toStartOf="@+id/imgatas1"
+        app:layout_constraintTop_toTopOf="@+id/imgatas1"
+        app:layout_constraintVertical_bias="0.584" />
+
+    <TextView
+        android:id="@+id/txtScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score : 0"
+        android:textAppearance="@style/font_soal_cahmain"
+        app:layout_constraintBottom_toBottomOf="@+id/imgatas1"
+        app:layout_constraintEnd_toEndOf="@+id/imgatas1"
+        app:layout_constraintHorizontal_bias="0.102"
+        app:layout_constraintStart_toStartOf="@+id/imgatas1"
+        app:layout_constraintTop_toTopOf="@+id/imgatas1"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <RadioGroup
+        android:id="@+id/rg1"
+        android:layout_width="wrap_content"
+        android:layout_height="500dp"
+        android:layout_marginTop="52dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgatas1">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/opsi1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/ops_a1"
+                tools:layout_editor_absoluteX="151dp"
+                tools:layout_editor_absoluteY="344dp" />
+
+            <RadioButton
+                android:id="@+id/opsi2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ops_b1"
+                tools:layout_editor_absoluteX="151dp"
+                tools:layout_editor_absoluteY="344dp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/opsi3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/ops_c1"
+                tools:layout_editor_absoluteX="151dp"
+                tools:layout_editor_absoluteY="344dp" />
+
+            <RadioButton
+                android:id="@+id/opsi4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ops_d1"
+                android:text="D"
+                tools:layout_editor_absoluteX="151dp"
+                tools:layout_editor_absoluteY="344dp" />
+        </LinearLayout>
+    </RadioGroup>
+
+    <ImageButton
+        android:id="@+id/sound_cah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/ic_soundc"
+        android:text="Submit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/btn_submit_cah"
+        tools:layout_editor_absoluteY="714dp" />
+
+    <Button
+        android:id="@+id/btn_submit_cah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/cardcolor1"
+        android:text="Submit"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rg1" />
+</androidx.constraintlayout.widget.ConstraintLayout>
