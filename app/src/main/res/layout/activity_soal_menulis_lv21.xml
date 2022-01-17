@@ -208,7 +208,7 @@
                 app:srcCompat="@drawable/s_imagem" />
 
             <ImageButton
-                android:id="@+id/btn21_e"
+                android:id="@+id/btn21_ee1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
@@ -248,7 +248,7 @@
                 app:srcCompat="@drawable/s_imagej" />
 
             <ImageButton
-                android:id="@+id/btn21_a2"
+                android:id="@+id/btn21_aa2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
