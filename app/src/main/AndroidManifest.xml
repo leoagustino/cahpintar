@@ -147,6 +147,140 @@
         <activity
             android:name=".TestIq1"
             android:exported="true" />
+
+        <activity
+            android:name=".cahMainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".jarimatikaLv11"
+            android:exported="true" />
+        <activity
+            android:name=".SoalBicaraLv33"
+            android:exported="true" />
+        <activity
+            android:name=".SoalBicaraLv32"
+            android:exported="true" />
+        <activity
+            android:name=".SoalBicaraLv31"
+            android:exported="true" />
+        <activity
+            android:name=".SoalBacaLv35"
+            android:exported="true" />
+        <activity
+            android:name=".SoalBacaLv34"
+            android:exported="true" />
+        <activity
+            android:name=".SoalBacaLv33"
+            android:exported="true" />
+        <activity
+            android:name=".SoalBacaLv32"
+            android:exported="true" />
+        <activity
+            android:name=".SoalBacaLv31"
+            android:exported="true" />
+        <activity
+            android:name=".SoalMenulisLv24"
+            android:exported="true" />
+        <activity
+            android:name=".SoalMenulisLv23"
+            android:exported="true" />
+        <activity
+            android:name=".Progress"
+            android:exported="true" />
+        <activity
+            android:name=".Profil"
+            android:exported="true" />
+        <activity
+            android:name=".Home"
+            android:exported="true" />
+        <activity
+            android:name=".SoalMenulisLv22"
+            android:exported="true" />
+        <activity
+            android:name=".SoalMenulisLv21"
+            android:exported="true" />
+        <activity
+            android:name=".SoalBerbicaraLv24"
+            android:exported="true" />
+        <activity
+            android:name=".SoalBerbicaraLv23"
+            android:exported="true" />
+        <activity
+            android:name=".SoalBerbicaraLv22"
+            android:exported="true" />
+        <activity
+            android:name=".SoalBerbicaralvl21"
+            android:exported="true" />
+        <activity
+            android:name=".SoalMembacalv24"
+            android:exported="true" />
+        <activity
+            android:name=".SoalMembacaLv23"
+            android:exported="true" />
+        <activity
+            android:name=".SoalMenulis13"
+            android:exported="true" />
+        <activity
+            android:name=".SoalMenulis12"
+            android:exported="true" />
+        <activity
+            android:name=".SoalMembaca13"
+            android:exported="true" />
+        <activity
+            android:name=".SoalMembacaLv22"
+            android:exported="true" />
+        <activity
+            android:name=".SoalMembacaLv21"
+            android:exported="true" />
+        <activity
+            android:name=".SoalMembaca"
+            android:exported="true" />
+        <activity
+            android:name=".SoalBerbicara13"
+            android:exported="true" />
+        <activity
+            android:name=".PengenalanAngka3"
+            android:exported="true" />
+        <activity
+            android:name=".SoalBerbicara12"
+            android:exported="true" />
+        <activity
+            android:name=".SoalMembaca12"
+            android:exported="true" />
+        <activity
+            android:name=".SoalBerbicara"
+            android:exported="true" />
+        <activity
+            android:name=".SoalMenulis"
+            android:exported="true" />
+        <activity
+            android:name=".PengenalanHuruf"
+            android:exported="true" />
+        <activity
+            android:name=".PengenalanAngka2"
+            android:exported="true" />
+        <activity
+            android:name=".PengenalanAngka"
+            android:exported="true" />
+        <activity
+            android:name=".MenuMenghitung"
+            android:exported="true" />
+        <activity
+            android:name=".MenuMembaca"
+            android:exported="true" />
+        <activity
+            android:name=".forgetPassword2"
+            android:exported="true" />
+        <activity
+            android:name=".forgetPassword"
+            android:exported="true" />
+        <activity
+            android:name=".register"
+            android:exported="true" />
+        <activity
+            android:name=".login"
+            android:exported="true" />
+
         <activity
             android:name=".MainActivity"
             android:exported="true">

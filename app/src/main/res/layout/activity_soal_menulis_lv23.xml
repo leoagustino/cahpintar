@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SoalMenulisLv21">
+    tools:context=".SoalMenulisLv23">
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/cardtulis21"
+        android:id="@+id/cardtulis23m"
         android:layout_width="400dp"
         android:layout_height="310dp"
         android:layout_marginTop="24dp"
@@ -27,7 +27,7 @@
             android:orientation="horizontal">
 
             <ImageButton
-                android:id="@+id/btnBack01"
+                android:id="@+id/btnBackm1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@null"
@@ -58,18 +58,18 @@
             android:layout_height="210dp"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
-            app:srcCompat="@drawable/imageguru" />
+            app:srcCompat="@drawable/imagemeja" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="130dp"
-            android:text="Guru Mengajar"
+            android:text="Meja Belajar"
             android:textAppearance="@style/font_soalbaca" />
 
         <ImageButton
-            android:id="@+id/btnSub01"
+            android:id="@+id/btnSubm01"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="right"
@@ -82,7 +82,7 @@
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/card13aa"
+        android:id="@+id/card23m"
         android:layout_width="400dp"
         android:layout_height="300dp"
         android:layout_marginTop="24dp"
@@ -90,7 +90,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.454"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cardtulis21">
+        app:layout_constraintTop_toBottomOf="@+id/cardtulis23m">
 
         <androidx.cardview.widget.CardView
             android:layout_width="400dp"
@@ -123,7 +123,7 @@
                     app:cardCornerRadius="20dp">
 
                     <ImageButton
-                        android:id="@+id/btnS_mengajar"
+                        android:id="@+id/btnS_Meja03"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
@@ -138,7 +138,7 @@
                     android:layout_marginLeft="10dp">
 
                     <com.google.android.material.textfield.TextInputEditText
-                        android:id="@+id/form_ketik21"
+                        android:id="@+id/form_ketik23m"
                         android:layout_width="230dp"
                         android:layout_height="50dp"
                         android:ems="15"
@@ -158,36 +158,36 @@
             android:orientation="horizontal">
 
             <ImageButton
-                android:id="@+id/btn21_g"
+                android:id="@+id/btn23_mm1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
                 android:background="@null"
-                app:srcCompat="@drawable/s_imageg1" />
+                app:srcCompat="@drawable/s_imagem1" />
 
             <ImageButton
-                android:id="@+id/btn21_u"
+                android:id="@+id/btn23_me"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
                 android:background="@null"
-                app:srcCompat="@drawable/s_imageu" />
+                app:srcCompat="@drawable/s_imagee" />
 
             <ImageButton
-                android:id="@+id/btn21_r"
+                android:id="@+id/btn23_mj"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
                 android:background="@null"
-                app:srcCompat="@drawable/s_imager" />
+                app:srcCompat="@drawable/s_imagej" />
 
             <ImageButton
-                android:id="@+id/btn13_u"
+                android:id="@+id/btn23_ma"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
                 android:background="@null"
-                app:srcCompat="@drawable/s_imageu" />
+                app:srcCompat="@drawable/s_imagea" />
 
 
         </androidx.appcompat.widget.LinearLayoutCompat>
@@ -200,15 +200,15 @@
             android:orientation="horizontal">
 
             <ImageButton
-                android:id="@+id/btn21_m"
+                android:id="@+id/btn23_mb"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
                 android:background="@null"
-                app:srcCompat="@drawable/s_imagem" />
+                app:srcCompat="@drawable/s_imageb" />
 
             <ImageButton
-                android:id="@+id/btn21_ee1"
+                android:id="@+id/btn23_me1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
@@ -216,23 +216,15 @@
                 app:srcCompat="@drawable/s_imagee" />
 
             <ImageButton
-                android:id="@+id/btn21_e"
+                android:id="@+id/btn23_ml"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
                 android:background="@null"
-                app:srcCompat="@drawable/s_imagen" />
+                app:srcCompat="@drawable/s_imagei" />
 
             <ImageButton
-                android:id="@+id/btn21_g1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginRight="10dp"
-                android:background="@null"
-                app:srcCompat="@drawable/s_imageg" />
-
-            <ImageButton
-                android:id="@+id/btn21_a1"
+                android:id="@+id/btn23_ma1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
@@ -240,7 +232,7 @@
                 app:srcCompat="@drawable/s_imagea" />
 
             <ImageButton
-                android:id="@+id/btn21_j"
+                android:id="@+id/btn23_mj1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
@@ -248,7 +240,7 @@
                 app:srcCompat="@drawable/s_imagej" />
 
             <ImageButton
-                android:id="@+id/btn21_aa2"
+                android:id="@+id/btn23_ma3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
@@ -256,7 +248,7 @@
                 app:srcCompat="@drawable/s_imagea" />
 
             <ImageButton
-                android:id="@+id/btn21_a2"
+                android:id="@+id/btn23_mr"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
@@ -264,12 +256,14 @@
                 app:srcCompat="@drawable/s_imager" />
 
 
+
+
         </androidx.appcompat.widget.LinearLayoutCompat>
 
     </androidx.cardview.widget.CardView>
 
     <Button
-        android:id="@+id/btnSmt8"
+        android:id="@+id/btnSmt9"
         android:layout_width="380dp"
         android:layout_height="50dp"
         android:layout_marginTop="16dp"
@@ -281,6 +275,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.516"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/card13aa" />
+        app:layout_constraintTop_toBottomOf="@+id/card23m" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

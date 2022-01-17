@@ -25,6 +25,14 @@ public class MenuMembaca extends AppCompatActivity {
             }
         });
 
+
+        findViewById(R.id.btnbackhome).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(), Home.class));
+            }
+        });
+
         /*ImageButton logout = findViewById(R.id.btnTesLogOut);
         logout.setOnClickListener(new View.OnClickListener() {
             @Override
