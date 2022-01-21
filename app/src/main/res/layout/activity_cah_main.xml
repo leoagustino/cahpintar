@@ -62,7 +62,7 @@
         android:layout_marginTop="44dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imgatas1">
 
@@ -76,6 +76,7 @@
             <ImageButton
                 android:id="@+id/opsi1"
                 android:layout_width="wrap_content"
+                android:tag="1"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="20dp"
                 android:layout_marginBottom="20dp"
@@ -86,7 +87,7 @@
                 android:id="@+id/opsi2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-
+                android:tag="2"
                 tools:layout_editor_absoluteX="151dp"
                 tools:layout_editor_absoluteY="344dp" />
         </LinearLayout>
@@ -101,12 +102,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="20dp"
+                android:tag="3"
                 tools:layout_editor_absoluteX="151dp"
                 tools:layout_editor_absoluteY="344dp" />
 
             <ImageButton
                 android:id="@+id/opsi4"
                 android:layout_width="wrap_content"
+                android:tag="4"
                 android:layout_height="wrap_content"
                 tools:layout_editor_absoluteX="151dp"
                 tools:layout_editor_absoluteY="344dp" />

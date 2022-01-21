@@ -21,9 +21,9 @@ import java.util.List;
 
 public class cahMainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    Integer answerCorrect;
+    /*Integer answerCorrect;
 
-    private boolean isCorrect;
+    private boolean isCorrect;*/
 
     private PertanyaanBank mQuestionLibrary = new PertanyaanBank();
     private TextView txtSoalNo, txtSoalCah, txtScore;
@@ -75,11 +75,12 @@ public class cahMainActivity extends AppCompatActivity implements View.OnClickLi
             opsi4.setImageResource(mQuestionLibrary.getChoice(mQuestionNumber, 4));
 
             /*opsi4.setImageResource(mQuestionLibrary.getChoice(mQuestionNumber,4));*/
+
             //koreksi jawaban
             mAnswer = mQuestionLibrary.getCorrectAnswer(mQuestionNumber);
             mQuestionNumber++;
         } else {
-            Toast.makeText(cahMainActivity.this, "It was the last question!",
+            Toast.makeText(cahMainActivity.this, "Soal Terakhir! ",
                     Toast.LENGTH_SHORT).show();
            /* Intent intent = new Intent(cahMainActivity.this,
                     HighestScoreActivity.class);
@@ -92,7 +93,7 @@ public class cahMainActivity extends AppCompatActivity implements View.OnClickLi
     @Override
     public void onClick(View view) {
 
-        Integer answerOptionNum = 0;
+        int answerOptionNum = 0;
         switch (view.getId()) {
             case R.id.opsi1:
                 answerOptionNum = Integer.parseInt(opsi1.getTag().toString());
@@ -107,16 +108,19 @@ public class cahMainActivity extends AppCompatActivity implements View.OnClickLi
                 displayToastAnswerCorrect(answerOptionNum);
                 break;
             case R.id.opsi4:
-                answerOptionNum = Integer.parseInt(opsi4.getTag().toString());
+                answerOptionNum = Integer.valueOf(opsi4.getTag().toString());
                 displayToastAnswerCorrect(answerOptionNum);
                 break;
         }
+        displayToastAnswerCorrect(answerOptionNum);
     }
 
     private void displayToastAnswerCorrect(int answerOptionNum) {
         if (answerOptionNum == mAnswer) {
             Toast.makeText(this, "Correct !", Toast.LENGTH_SHORT).show();
             mScore = mScore + 1;
+
+            updateScore(mScore);
             updateQuestion();
         }
 
