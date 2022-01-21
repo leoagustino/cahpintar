@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".soal_menulis_lv45">
+    tools:context=".soal_menulis_lv52">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardf13"
@@ -58,14 +58,14 @@
             android:layout_height="210dp"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
-            app:srcCompat="@drawable/sayasuka" />
+            app:srcCompat="@drawable/ibumemasak" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="130dp"
-            android:text="Saya suka bermain bola"
+            android:text="Ibu memasak nasi goreng di dapur"
             android:textAppearance="@style/font_soalbaca" />
 
         <ImageButton
@@ -83,8 +83,8 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/card13a"
-        android:layout_width="400dp"
-        android:layout_height="300dp"
+        android:layout_width="392dp"
+        android:layout_height="378dp"
         android:layout_marginTop="24dp"
         app:cardCornerRadius="15dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -123,9 +123,9 @@
                     app:cardCornerRadius="20dp">
 
                     <ImageButton
-                        android:id="@+id/btnS_saya45"
+                        android:id="@+id/btnS_Ibu52"
                         android:layout_width="wrap_content"
-                        android:layout_height="19dp"
+                        android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:background="@null"
                         app:srcCompat="@drawable/ic_volume" />
@@ -139,10 +139,10 @@
 
                     <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/form_menulis13"
-                        android:layout_width="230dp"
+                        android:layout_width="286dp"
                         android:layout_height="50dp"
                         android:ems="15"
-                        android:hint="Jawab....."
+                        android:hint="Ibu memasak nasi goreng di....."
                         android:inputType="text"
                         android:paddingLeft="10dp" />
                 </com.google.android.material.textfield.TextInputLayout>
@@ -155,41 +155,33 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginRight="100dp"
+            android:layout_marginBottom="40dp"
+            android:layout_marginRight="122dp"
             android:orientation="horizontal">
 
             <ImageButton
-                android:id="@+id/btn7s"
+                android:id="@+id/btn14i"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
                 android:background="@null"
-                app:srcCompat="@drawable/s_images" />
+                app:srcCompat="@drawable/s_imagei" />
 
             <ImageButton
-                android:id="@+id/btn14a"
+                android:id="@+id/btn8b"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
                 android:background="@null"
-                app:srcCompat="@drawable/s_imagea" />
+                app:srcCompat="@drawable/s_imageb" />
 
             <ImageButton
-                android:id="@+id/btn2y"
+                android:id="@+id/btn8u"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
                 android:background="@null"
-                app:srcCompat="@drawable/s_imagey" />
-
-            <ImageButton
-                android:id="@+id/btn15a"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginRight="10dp"
-                android:background="@null"
-                app:srcCompat="@drawable/s_imagea" />
-
+                app:srcCompat="@drawable/s_imageu" />
 
         </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -198,11 +190,43 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="40dp"
-            android:layout_marginRight="100dp"
+            android:layout_marginRight="30dp"
             android:orientation="horizontal">
 
             <ImageButton
-                android:id="@+id/btn8s"
+                android:id="@+id/btn12m"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:background="@null"
+                app:srcCompat="@drawable/s_imagem" />
+
+            <ImageButton
+                android:id="@+id/btn11e"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:background="@null"
+                app:srcCompat="@drawable/s_imagee" />
+
+            <ImageButton
+                android:id="@+id/btn13m"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:background="@null"
+                app:srcCompat="@drawable/s_imagem" />
+
+            <ImageButton
+                android:id="@+id/btn26a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:background="@null"
+                app:srcCompat="@drawable/s_imagea" />
+
+            <ImageButton
+                android:id="@+id/btn9s"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
@@ -210,28 +234,21 @@
                 app:srcCompat="@drawable/s_images" />
 
             <ImageButton
-                android:id="@+id/btn5u"
+                android:id="@+id/btn27a"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
                 android:background="@null"
-                app:srcCompat="@drawable/s_imageu" />
+                app:srcCompat="@drawable/s_imagea" />
 
             <ImageButton
-                android:id="@+id/btn4k"
+                android:id="@+id/btn5k"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
                 android:background="@null"
                 app:srcCompat="@drawable/s_imagek" />
 
-            <ImageButton
-                android:id="@+id/btn16a"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginRight="10dp"
-                android:background="@null"
-                app:srcCompat="@drawable/s_imagea" />
         </androidx.appcompat.widget.LinearLayoutCompat>
 
 
@@ -240,43 +257,19 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="82dp"
-            android:layout_marginRight="30dp"
+            android:layout_marginRight="97dp"
             android:orientation="horizontal">
 
             <ImageButton
-                android:id="@+id/btn5b"
+                android:id="@+id/btn13n"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
                 android:background="@null"
-                app:srcCompat="@drawable/s_imageb" />
+                app:srcCompat="@drawable/s_imagen" />
 
             <ImageButton
-                android:id="@+id/btn9e"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginRight="10dp"
-                android:background="@null"
-                app:srcCompat="@drawable/s_imagee" />
-
-            <ImageButton
-                android:id="@+id/btn5r"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginRight="10dp"
-                android:background="@null"
-                app:srcCompat="@drawable/s_imager" />
-
-            <ImageButton
-                android:id="@+id/btn8m"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginRight="10dp"
-                android:background="@null"
-                app:srcCompat="@drawable/s_imagem" />
-
-            <ImageButton
-                android:id="@+id/btn17a"
+                android:id="@+id/btn28a"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
@@ -284,20 +277,21 @@
                 app:srcCompat="@drawable/s_imagea" />
 
             <ImageButton
-                android:id="@+id/btn10i"
+                android:id="@+id/btn10s"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:background="@null"
+                app:srcCompat="@drawable/s_images" />
+
+            <ImageButton
+                android:id="@+id/btn15i"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
                 android:background="@null"
                 app:srcCompat="@drawable/s_imagei1" />
 
-            <ImageButton
-                android:id="@+id/btn10n"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginRight="10dp"
-                android:background="@null"
-                app:srcCompat="@drawable/s_imagen" />
 
         </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -306,19 +300,69 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="125dp"
-            android:layout_marginRight="97dp"
+            android:layout_marginRight="73dp"
             android:orientation="horizontal">
 
             <ImageButton
-                android:id="@+id/btn6b"
+                android:id="@+id/btn4d"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
                 android:background="@null"
-                app:srcCompat="@drawable/s_imageb" />
+                app:srcCompat="@drawable/s_imaged" />
 
             <ImageButton
-                android:id="@+id/btn4o"
+                android:id="@+id/btn22a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:background="@null"
+                app:srcCompat="@drawable/s_imagea" />
+
+            <ImageButton
+                android:id="@+id/btn1p"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:background="@null"
+                app:srcCompat="@drawable/s_imagep" />
+
+            <ImageButton
+                android:id="@+id/btn6u"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:background="@null"
+                app:srcCompat="@drawable/s_imageu" />
+
+
+            <ImageButton
+                android:id="@+id/btn6r"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:background="@null"
+                app:srcCompat="@drawable/s_imager" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="55dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btn7g"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:background="@null"
+                app:srcCompat="@drawable/s_imageg" />
+
+            <ImageButton
+                android:id="@+id/btn6o"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
@@ -326,28 +370,71 @@
                 app:srcCompat="@drawable/s_imageo" />
 
             <ImageButton
-                android:id="@+id/btn2l"
+                android:id="@+id/btn9r"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
                 android:background="@null"
-                app:srcCompat="@drawable/s_imagei" />
+                app:srcCompat="@drawable/s_imager" />
 
             <ImageButton
-                android:id="@+id/btn18a"
+                android:id="@+id/btn12e"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
                 android:background="@null"
-                app:srcCompat="@drawable/s_imagea" />
+                app:srcCompat="@drawable/s_imagee" />
+
+
+            <ImageButton
+                android:id="@+id/btn14n"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:background="@null"
+                app:srcCompat="@drawable/s_imagen" />
+
+
+            <ImageButton
+                android:id="@+id/btn8g"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:background="@null"
+                app:srcCompat="@drawable/s_imageg" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="170dp"
+            android:layout_marginRight="140dp"
+            android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btn6d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:background="@null"
+            app:srcCompat="@drawable/s_imaged" />
+
+        <ImageButton
+            android:id="@+id/btn16i"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:background="@null"
+            app:srcCompat="@drawable/s_imagei" />
         </androidx.appcompat.widget.LinearLayoutCompat>
     </androidx.cardview.widget.CardView>
 
     <Button
-        android:id="@+id/submit14"
+        android:id="@+id/submit52"
         android:layout_width="380dp"
         android:layout_height="50dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="24dp"
         android:backgroundTint="@color/btnwarna"
         android:text="Submit"
         android:textColor="@color/btntxtwarna"
@@ -356,7 +443,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/card13a" />
-
+        app:layout_constraintTop_toBottomOf="@+id/card13a"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

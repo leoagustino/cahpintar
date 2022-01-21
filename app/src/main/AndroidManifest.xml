@@ -10,6 +10,96 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CahPintar">
         <activity
+            android:name=".soal_jarimatika_lv552"
+            android:exported="true" />
+        <activity
+            android:name=".soal_jarimatika_lv551"
+            android:exported="true" />
+        <activity
+            android:name=".soal_jarimatika_lv55"
+            android:exported="true" />
+        <activity
+            android:name=".soal_jarimatika_lv542"
+            android:exported="true" />
+        <activity
+            android:name=".soal_jarimatika_lv541"
+            android:exported="true" />
+        <activity
+            android:name=".soal_jarimatika_lv54"
+            android:exported="true" />
+        <activity
+            android:name=".soal_jarimatika_lv532"
+            android:exported="true" />
+        <activity
+            android:name=".soal_jarimatika_lv531"
+            android:exported="true" />
+        <activity
+            android:name=".soal_jarimatika_lv53"
+            android:exported="true" />
+        <activity
+            android:name=".soal_jarimmatika_lv522"
+            android:exported="true" />
+        <activity
+            android:name=".soal_jarimatika_lv521"
+            android:exported="true" />
+        <activity
+            android:name=".soal_jarimatika_lv52"
+            android:exported="true" />
+        <activity
+            android:name=".soal_jarimatika_lv512"
+            android:exported="true" />
+        <activity
+            android:name=".soal_jarimatika_lv511"
+            android:exported="true" />
+        <activity
+            android:name=".soal_jarimatika_lv51"
+            android:exported="true" />
+        <activity
+            android:name=".soal_berbicara_lv55"
+            android:exported="true" />
+        <activity
+            android:name=".soal_menulis_lv_55"
+            android:exported="true" />
+        <activity
+            android:name=".ssoal_membaca_lv55"
+            android:exported="true" />
+        <activity
+            android:name=".soal_berbicara_lv54"
+            android:exported="true" />
+        <activity
+            android:name=".soal_menulis_lv54"
+            android:exported="true" />
+        <activity
+            android:name=".soal_membaca_lv54"
+            android:exported="true" />
+        <activity
+            android:name=".soal_berbicara_lv53"
+            android:exported="true" />
+        <activity
+            android:name=".soal_membaca_lv53"
+            android:exported="true" />
+        <activity
+            android:name=".soal_menulis_lv53"
+            android:exported="true" />
+        <activity
+            android:name=".soal_berbicara_lv52"
+            android:exported="true" />
+        <activity
+            android:name=".soal_membaca_lv52"
+            android:exported="true" />
+        <activity
+            android:name=".soal_menulis_lv52"
+            android:exported="true" />
+        <activity
+            android:name=".soal_berbicara_lv51"
+            android:exported="true" />
+        <activity
+            android:name=".soal_menulis_lv51"
+            android:exported="true" />
+        <activity
+            android:name=".soal_membaca_lv51"
+            android:exported="true" />
+        <activity
             android:name=".soal_jarimatika_lv452"
             android:exported="true" />
         <activity
@@ -147,7 +237,6 @@
         <activity
             android:name=".TestIq1"
             android:exported="true" />
-
         <activity
             android:name=".cahMainActivity"
             android:exported="true" />
@@ -230,9 +319,6 @@
             android:name=".SoalMembacaLv22"
             android:exported="true" />
         <activity
-            android:name=".SoalMembacaLv21"
-            android:exported="true" />
-        <activity
             android:name=".SoalMembaca"
             android:exported="true" />
         <activity
@@ -280,7 +366,6 @@
         <activity
             android:name=".login"
             android:exported="true" />
-
         <activity
             android:name=".MainActivity"
             android:exported="true">

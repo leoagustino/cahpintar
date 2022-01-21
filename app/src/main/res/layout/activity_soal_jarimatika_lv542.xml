@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".soal_jarimatika_lv45">
+    tools:context=".soal_jarimatika_lv542">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cbicaralvl24"
@@ -61,7 +61,7 @@
             app:srcCompat="@drawable/kotakberhitung1" />
 
         <ImageButton
-            android:id="@+id/vol13"
+            android:id="@+id/vol542"
             android:layout_width="50dp"
             android:backgroundTint="@color/white"
             android:layout_marginLeft="59dp"
@@ -82,7 +82,7 @@
             android:layout_height="195dp"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
-            app:srcCompat="@drawable/jarimatika45" />
+            app:srcCompat="@drawable/jaarimatika54" />
 
 
         <ImageButton
@@ -120,7 +120,7 @@
             android:src="@drawable/garisberhitung" />
 
         <ImageButton
-            android:id="@+id/qust5"
+            android:id="@+id/qust4"
             android:layout_width="50dp"
             android:backgroundTint="@color/white"
             android:layout_marginLeft="180dp"
@@ -128,35 +128,86 @@
             android:src="@drawable/questionmark" />
 
         <ImageView
-            android:layout_width="337dp"
-            android:layout_height="203dp"
+            android:layout_width="331dp"
+            android:layout_height="wrap_content"
             android:layout_marginLeft="40dp"
             android:layout_marginTop="60dp"
-            android:src="@drawable/jari45" />
+            android:src="@drawable/hitungan54" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btn323"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:background="@null"
+                app:srcCompat="@drawable/angka323" />
+
+            <ImageButton
+                android:id="@+id/btn254"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:background="@null"
+                app:srcCompat="@drawable/angka2jar" />
+
+            <ImageButton
+                android:id="@+id/btn342"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                app:srcCompat="@drawable/angka342jar" />
 
 
-        <ImageView
-            android:layout_width="333dp"
-            android:layout_height="162dp"
-            android:layout_marginLeft="40dp"
-            android:layout_marginTop="300dp"
-            android:src="@drawable/rumusjarimatika" />
 
-        <ImageView
-            android:layout_width="349dp"
-            android:layout_height="95dp"
-            android:layout_marginLeft="30dp"
-            android:layout_marginTop="230dp"
-            android:src="@drawable/garisberhitung" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btn18254"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:background="@null"
+                app:srcCompat="@drawable/angka182jar" />
+
+            <ImageButton
+                android:id="@+id/btn225544"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:background="@null"
+                app:srcCompat="@drawable/angka225jar" />
+
+
+            <ImageButton
+                android:id="@+id/btn3054"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                app:srcCompat="@drawable/angka30jar" />
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
 
         <ImageButton
-            android:id="@+id/next9"
+            android:id="@+id/submit542"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="450dp"
-            android:backgroundTint="@null"
-            android:src="@drawable/btnnextberhitung" />
+            android:layout_marginLeft="15dp"
+            android:background="@null"
+            android:src="@drawable/submitjari" />
     </androidx.cardview.widget.CardView>
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>
