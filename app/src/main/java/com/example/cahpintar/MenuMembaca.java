@@ -33,6 +33,13 @@ public class MenuMembaca extends AppCompatActivity {
             }
         });
 
+        findViewById(R.id.txtPengenalanHuruf).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(), PengenalanHuruf.class));
+            }
+        });
+
         /*ImageButton logout = findViewById(R.id.btnTesLogOut);
         logout.setOnClickListener(new View.OnClickListener() {
             @Override
