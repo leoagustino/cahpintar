@@ -3,12 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/circlescore.xml" value="0.12604166666666666" />
         <entry key="app/src/main/res/drawable/form_profil.xml" value="0.12569444444444444" />
         <entry key="app/src/main/res/drawable/form_setting.xml" value="0.22256944444444443" />
         <entry key="app/src/main/res/drawable/rounded_corner.xml" value="0.22256944444444443" />
         <entry key="app/src/main/res/drawable/selector.xml" value="0.12361111111111112" />
         <entry key="app/src/main/res/layout/activity_cah_main.xml" value="0.18" />
         <entry key="app/src/main/res/layout/activity_dash_board.xml" value="0.16" />
+        <entry key="app/src/main/res/layout/activity_end_cah_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_forget_password.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_forget_password2.xml" value="0.296195652173913" />
         <entry key="app/src/main/res/layout/activity_home.xml" value="0.13114754098360656" />
@@ -34,6 +36,7 @@
         <entry key="app/src/main/res/layout/activity_soal_berbicaralv23.xml" value="0.21180555555555555" />
         <entry key="app/src/main/res/layout/activity_soal_berbicaralvl21.xml" value="0.21180555555555555" />
         <entry key="app/src/main/res/layout/activity_soal_berbicaralvl22.xml" value="0.21180555555555555" />
+        <entry key="app/src/main/res/layout/activity_soal_jarimatika_lv412.xml" value="0.21180555555555555" />
         <entry key="app/src/main/res/layout/activity_soal_membaca.xml" value="0.19637978142076504" />
         <entry key="app/src/main/res/layout/activity_soal_membaca12.xml" value="0.21180555555555555" />
         <entry key="app/src/main/res/layout/activity_soal_membaca13.xml" value="0.21180555555555555" />
@@ -47,6 +50,7 @@
         <entry key="app/src/main/res/layout/activity_soal_menulis_lv22.xml" value="0.21180555555555555" />
         <entry key="app/src/main/res/layout/activity_soal_menulis_lv44.xml" value="0.21180555555555555" />
         <entry key="app/src/main/res/layout/activity_tesiq10.xml" value="0.21180555555555555" />
+        <entry key="app/src/main/res/layout/activity_tesiq11.xml" value="0.21180555555555555" />
         <entry key="app/src/main/res/layout/activity_tesiq6.xml" value="0.21180555555555555" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.21180555555555555" />
         <entry key="app/src/main/res/layout/fragment_profil.xml" value="0.25" />

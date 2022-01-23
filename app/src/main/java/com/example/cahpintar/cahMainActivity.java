@@ -2,17 +2,14 @@ package com.example.cahpintar;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.content.Intent;
-import android.content.res.ColorStateList;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.renderscript.Sampler;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
-import android.widget.RadioButton;
-import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -21,26 +18,23 @@ import java.util.List;
 
 public class cahMainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    /*Integer answerCorrect;
-
-    private boolean isCorrect;*/
-
     private PertanyaanBank mQuestionLibrary = new PertanyaanBank();
-    private TextView txtSoalNo, txtSoalCah, txtScore;
+    private TextView txtSoalCah, txtScore;
     private ImageButton opsi1, opsi2, opsi3, opsi4;
-    private Button btnNext;
-
 
     private int mAnswer;
     private int mScore = 0;
     private int mQuestionNumber = 0;
+
+    String scoreScr;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cah_main);
 
-        txtSoalNo = findViewById(R.id.txtSoalNo);
+        /*txtSoalNo = findViewById(R.id.txtSoalNo);*/
         txtSoalCah = findViewById(R.id.txtSoalCah);
         txtScore = findViewById(R.id.txtScore);
 
@@ -52,14 +46,16 @@ public class cahMainActivity extends AppCompatActivity implements View.OnClickLi
         opsi3.setOnClickListener(this);
         opsi4 = findViewById(R.id.opsi4);
         opsi4.setOnClickListener(this);
-        btnNext = findViewById(R.id.btn_submit_cah);
+
 
         updateQuestion();
         updateScore(mScore);
+
     }
 
     private void updateScore(int mScore) {
-        txtScore.setText("" + mScore + "/" + mQuestionLibrary.getLength());
+        /*txtScore.setText("" + mScore + "/" + mQuestionLibrary.getLength());*/
+        txtScore.setText("" + mScore + "/" + "110 Point");
     }
 
     private void updateQuestion() {
@@ -82,11 +78,10 @@ public class cahMainActivity extends AppCompatActivity implements View.OnClickLi
         } else {
             Toast.makeText(cahMainActivity.this, "Soal Terakhir! ",
                     Toast.LENGTH_SHORT).show();
-           /* Intent intent = new Intent(cahMainActivity.this,
-                    HighestScoreActivity.class);
-            intent.putExtra("score", mScore); // pass the current score to
-            the second screen
-            startActivity(intent);*/
+
+            Intent intent = new Intent(cahMainActivity.this, endCahMain.class);
+            intent.putExtra("HasilScore", txtScore.getText().toString()); // pass the current score to the second screen
+            startActivity(intent);
         }
     }
 
@@ -118,10 +113,13 @@ public class cahMainActivity extends AppCompatActivity implements View.OnClickLi
     private void displayToastAnswerCorrect(int answerOptionNum) {
         if (answerOptionNum == mAnswer) {
             Toast.makeText(this, "Correct !", Toast.LENGTH_SHORT).show();
-            mScore = mScore + 1;
+            mScore = mScore + 10;
 
             updateScore(mScore);
             updateQuestion();
+        }else {
+            Toast.makeText(this, "Salah!", Toast.LENGTH_SHORT).show();
+
         }
 
 

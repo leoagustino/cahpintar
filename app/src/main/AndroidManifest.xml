@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CahPintar">
         <activity
+            android:name=".endCahMain"
+            android:exported="true" />
+        <activity
             android:name=".soal_jarimatika_lv552"
             android:exported="true" />
         <activity
