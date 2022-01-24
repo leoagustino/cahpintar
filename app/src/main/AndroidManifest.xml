@@ -10,15 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CahPintar">
         <activity
-            android:name=".pengenalanjari_lv42"
-            android:exported="true" />
-        <activity
-            android:name=".pengenalanjarimatika_lv5"
-            android:exported="true" />
-        <activity
-            android:name=".pengenalanjarimatika_lv4"
-            android:exported="true" />
-        <activity
             android:name=".soal_jarimatika_lv552"
             android:exported="true" />
         <activity
@@ -199,7 +190,52 @@
             android:name=".congrats"
             android:exported="true" />
         <activity
+            android:name=".tesiq15"
+            android:exported="true" />
+        <activity
+            android:name=".tesiq14"
+            android:exported="true" />
+        <activity
+            android:name=".tesiq13"
+            android:exported="true" />
+        <activity
+            android:name=".tesiq12"
+            android:exported="true" />
+        <activity
+            android:name=".tesiq11"
+            android:exported="true" />
+        <activity
+            android:name=".tesiq10"
+            android:exported="true" />
+        <activity
+            android:name=".testiq9"
+            android:exported="true" />
+        <activity
+            android:name=".tesiq8"
+            android:exported="true" />
+        <activity
+            android:name=".tesiq7"
+            android:exported="true" />
+        <activity
+            android:name=".tesiq6"
+            android:exported="true" />
+        <activity
+            android:name=".tesiq5"
+            android:exported="true" />
+        <activity
+            android:name=".testiq4"
+            android:exported="true" />
+        <activity
             android:name=".soal_membaca_lv41"
+            android:exported="true" />
+        <activity
+            android:name=".testiq3"
+            android:exported="true" />
+        <activity
+            android:name=".testiq2"
+            android:exported="true" />
+        <activity
+            android:name=".TestIq1"
             android:exported="true" />
         <activity
             android:name=".cahMainActivity"
