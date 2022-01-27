@@ -2,7 +2,9 @@ package com.example.cahpintar;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
 public class endCahMain extends AppCompatActivity {
@@ -16,6 +18,14 @@ public class endCahMain extends AppCompatActivity {
     point = findViewById(R.id.ScoreCahmain);
     String Score = getIntent().getStringExtra("HasilScore");
     point.setText(Score);
+
+        findViewById(R.id.btnToHome).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(), Home.class));
+            }
+        });
+
 
     }
 }

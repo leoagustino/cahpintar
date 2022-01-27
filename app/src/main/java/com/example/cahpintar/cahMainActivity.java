@@ -48,6 +48,7 @@ public class cahMainActivity extends AppCompatActivity implements View.OnClickLi
         opsi4.setOnClickListener(this);
 
 
+
         updateQuestion();
         updateScore(mScore);
 
@@ -121,25 +122,6 @@ public class cahMainActivity extends AppCompatActivity implements View.OnClickLi
             Toast.makeText(this, "Salah!", Toast.LENGTH_SHORT).show();
 
         }
-
-
-
-    /*public void onClick(View view) {
-        //all logic for all answers buttons in one method
-        ImageButton answer = (ImageButton) view;
-
-        // if the answer is correct, increase the score
-        if (  == mAnswer){
-            mScore = mScore + 1;
-            Toast.makeText(cahMainActivity.this, "Benar!",
-                    Toast.LENGTH_SHORT).show();
-        }else
-            Toast.makeText(cahMainActivity.this, "Salah!",
-                    Toast.LENGTH_SHORT).show();
-
-        updateScore(mScore);
-        updateQuestion();
-    }*/
 
 
     }

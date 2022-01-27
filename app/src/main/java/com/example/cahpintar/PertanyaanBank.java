@@ -30,7 +30,7 @@ public class PertanyaanBank {
             {R.drawable.ops_a7, R.drawable.ops_b7, R.drawable.ops_c7, R.drawable.ops_d7},
             {R.drawable.ops_a8, R.drawable.ops_b8, R.drawable.ops_c8, R.drawable.ops_d8},
             {R.drawable.ops_a9, R.drawable.ops_b9, R.drawable.ops_c9, R.drawable.ops_d9},
-            {R.drawable.ops_a10, R.drawable.ops_b10, R.drawable.ops_c10, R.drawable.ops_d10},
+            {R.drawable.ops_a10, R.drawable.ops_b10, R.drawable.ops_c10, R.drawable.ops_d10}
 
     };
 

@@ -35,7 +35,8 @@ public class login extends AppCompatActivity {
         txtSignUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(getApplicationContext(),cahMainActivity.class));
+                /*startActivity(new Intent(getApplicationContext(), register.class));*/
+                startActivity(new Intent(getApplicationContext(), jarimatikaLv11.class));
             }
         });
 
@@ -61,7 +62,7 @@ public class login extends AppCompatActivity {
                 firebaseAuth.signInWithEmailAndPassword(loginEmail.getText().toString(), loginPassword.getText().toString()).addOnSuccessListener(new OnSuccessListener<AuthResult>() {
                     @Override
                     public void onSuccess(AuthResult authResult) {
-                        startActivity(new Intent(getApplicationContext(), Home.class));
+                        startActivity(new Intent(getApplicationContext(), cahMainActivity.class));
                         finish();
                     }
                 }).addOnFailureListener(new OnFailureListener() {

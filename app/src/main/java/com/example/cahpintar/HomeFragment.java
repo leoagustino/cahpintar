@@ -17,6 +17,7 @@ import android.widget.TextView;
  */
 public class HomeFragment extends Fragment {
     TextView dashBaca;
+    TextView dashBerhitung;
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -62,6 +63,7 @@ public class HomeFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_home, container, false);
+        dashBerhitung = (TextView)view.findViewById(R.id.dashBerhitung);
 
         dashBaca = (TextView)view.findViewById(R.id.dashBaca);
         dashBaca.setOnClickListener(new View.OnClickListener() {
@@ -71,6 +73,16 @@ public class HomeFragment extends Fragment {
                 getActivity().finish();
             }
         });
+
+        dashBerhitung.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity().getApplicationContext(), MenuMenghitung.class));
+                getActivity().finish();
+            }
+        });
+
+
 
         // Inflate the layout for this fragment
         //return inflater.inflate(R.layout.fragment_home, container, false);

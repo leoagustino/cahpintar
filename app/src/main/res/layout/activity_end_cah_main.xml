@@ -82,7 +82,7 @@
         app:layout_constraintTop_toBottomOf="@+id/userScoreName" />
 
     <ImageButton
-        android:id="@+id/nextToHome"
+        android:id="@+id/btnToHome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"

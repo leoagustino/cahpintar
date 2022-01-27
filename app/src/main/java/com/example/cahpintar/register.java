@@ -79,7 +79,7 @@ public class register extends AppCompatActivity {
                 fAuth.createUserWithEmailAndPassword(email, password).addOnSuccessListener(new OnSuccessListener<AuthResult>() {
                     @Override
                     public void onSuccess(AuthResult authResult) {
-                        startActivity(new Intent(getApplicationContext(),MenuMembaca.class));
+                        startActivity(new Intent(getApplicationContext(),cahMainActivity.class));
                         finish();
                     }
                 }).addOnFailureListener(new OnFailureListener() {
