@@ -2,7 +2,7 @@ package com.example.cahpintar;
 
 public class mathBank {
 
-    private Integer imageQuestion [] = {
+    private Integer imageQuestion []= {
             R.drawable.gbr6x6,
             R.drawable.gbr6x7,
             R.drawable.gbr6x8
@@ -19,30 +19,28 @@ public class mathBank {
 
 
 
-    private String[] kunciJawaban = {"101", "200", "300"};
+    private String[] kunciJawaban = {"2010", "200", "300"};
 
     public int getLength2(){
         return imageQuestion.length;
     }
 
-    public Integer getQuestion(int b) {
-        Integer mathQuestion = imageQuestion[b];
-        return mathQuestion;
+    public Integer getQuestionMath(int c) {
+        return imageQuestion[c];
     }
 
-   /* public String getJawabUser(int index, int num) {
+    /*public int getChoice(int index, int num) {
         int textAnswer = textAnswer[index][num-1];
         return textAnswer;
-    } */
+    }*/
 
     public String getJawabenar(int b) {
-        String kunciJawaban = kunciJawaban[b];
-        return kunciJawaban;
+        return kunciJawaban [b];
+
     }
 
-    public String getKeys(int b) {
-        String keys = keys[b];
-        return keys;
+    public String getKeys(int b, int c) {
+        return keys[b][c];
     }
 
 

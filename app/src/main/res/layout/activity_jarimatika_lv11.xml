@@ -64,7 +64,6 @@
                 android:id="@+id/imgKali"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:srcCompat="@drawable/gbr6x6"
                 android:layout_gravity="center"/>
         </androidx.cardview.widget.CardView>
 
@@ -148,7 +147,7 @@
             android:ems="10"
             android:layout_marginBottom="20dp"
             android:inputType="textPersonName"
-            android:text="Name"
+            android:text="Answer"
             android:textAlignment="center"
             />
 

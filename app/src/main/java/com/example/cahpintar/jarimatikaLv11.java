@@ -1,6 +1,7 @@
 package com.example.cahpintar;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.res.ResourcesCompat;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -24,12 +25,12 @@ public class jarimatikaLv11 extends AppCompatActivity {
     ImageView gbrMathSoal;
     TextView txtJudulAngka;
     EditText txtAnswer;
-    String[] keys;
+    private String[] keys;
 
     private String kunciJawaban;
     private int presCounter = 0;
     private int noMathQuest = 0;
-    private int maxPresCounter = 6;
+    private int maxPresCounter = 2;
     private int jawabBenar;
     Animation smallbig;
 
@@ -45,29 +46,33 @@ public class jarimatikaLv11 extends AppCompatActivity {
         txtAnswer = findViewById(R.id.txtJawab);
         updateMathQuestion();
 
-        keys = mMathQLibrary.getKeys(shuffleArray(keys).length);
+        /*keys = mMathQLibrary.getKeys(shuffleArray(keys).length);*/
 
-        /*keys = shuffleArray(keys);*/
+        String[] keysData = new String[6];
+        //for (int i = 0; i < mMathQLibrary.getLength2(); i++){
+            for (int ii = 0; ii < 6; ii++) {
+                String rowData = mMathQLibrary.getKeys(0, ii);
+                keysData[ii] = rowData;
+            }
+    //}
+
+
+        keys = shuffleArray(keysData);
 
         for (String key : keys) {
             addView(((LinearLayout) findViewById(R.id.layoutParent)), key, ((EditText) findViewById(R.id.txtJawab)));
         }
 
-        maxPresCounter = 6;
+        maxPresCounter = 2;
+
     }
 
     private void updateMathQuestion() {
         if (noMathQuest < mMathQLibrary.getLength2()) {
 
             //Soal Math
-            txtAnswer.setText(mMathQLibrary.getQuestion(noMathQuest));
-
-            //menampilkan OpsiImage
-           /* opsi1.setImageResource(mQuestionLibrary.getChoice(mQuestionNumber, 1));
-            opsi2.setImageResource(mQuestionLibrary.getChoice(mQuestionNumber, 2));
-            opsi3.setImageResource(mQuestionLibrary.getChoice(mQuestionNumber, 3));
-            opsi4.setImageResource(mQuestionLibrary.getChoice(mQuestionNumber, 4));
-*/
+            /*txtAnswer.setText(mMathQLibrary.getQuestion(noMathQuest));*/
+            gbrMathSoal.setImageResource(mMathQLibrary.getQuestionMath(noMathQuest));
 
             //koreksi jawaban
             kunciJawaban = mMathQLibrary.getJawabenar(noMathQuest);
@@ -106,14 +111,14 @@ public class jarimatikaLv11 extends AppCompatActivity {
 
         textView.setLayoutParams(linearLayoutParams);
         textView.setBackground(this.getResources().getDrawable(R.drawable.bggrey));
-        textView.setTextColor(this.getResources().getColor(R.color.cardcolor1));
+        textView.setTextColor(this.getResources().getColor(R.color.ungu));
         textView.setGravity(Gravity.CENTER);
         textView.setText(text);
         textView.setClickable(true);
         textView.setFocusable(true);
         textView.setTextSize(32);
 
-        Typeface typeface = Typeface.createFromAsset(getAssets(), "font/poppins_semibold.ttf");
+        Typeface typeface = ResourcesCompat.getFont(this, R.font.poppins_semibold);
 
         txtAnswer.setTypeface(typeface);
         txtJudulAngka.setTypeface(typeface);
@@ -152,15 +157,15 @@ public class jarimatikaLv11 extends AppCompatActivity {
         EditText editText = findViewById(R.id.txtJawab);
         LinearLayout linearLayout = findViewById(R.id.layoutParent);
 
+       /* if (editText.getText().toString().equals(kunciJawaban)) {*/
         if (editText.getText().toString().equals(kunciJawaban)) {
-//            Toast.makeText(MainActivity.this, "Correct", Toast.LENGTH_SHORT).show();
-
-            Intent a = new Intent(jarimatikaLv11.this, Home.class);
-            startActivity(a);
+            Toast.makeText(this, "Correct", Toast.LENGTH_SHORT).show();
+            /*Intent a = new Intent(jarimatikaLv11.this, Home.class);
+            startActivity(a);*/
 
             editText.setText("");
         } else {
-            Toast.makeText(jarimatikaLv11.this, "Wrong", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Wrong", Toast.LENGTH_SHORT).show();
             editText.setText("");
         }
 
